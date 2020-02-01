@@ -162,29 +162,55 @@ def h_index_citations(recid,n):
         data2 = [x for x in data2 if x>h_index]
     return h_index
 
+# Parse a list of keys into a string that can be included in a request
+def parse_keylist(keylist):
+    ret = ''
+    if len(keylist)<1:
+        return ret
+    for key in keylist[:-1]:
+        ret += key
+        ret += ','
+    ret += keylist[-1]
+    return ret
+
 # get all papers 'downstream' from the current paper in the citation graph, i.e. the paper's descendants.
-def get_descendants(recid):
-    data = inspire_search('refersto:recid:{}'.format(recid),'title,recid')
+def get_descendants(recid, max_number=10**4, keylist=[], verbose=False):
+    # parse keylist into a string to add to the request
+    keystring = parse_keylist(['recid']+keylist)
+    # maker request
+    data = inspire_search('refersto:recid:{}'.format(recid),keystring)
+    # save results in 'data'
     data = [d for d in data if d]
     i = 0
-    while i < len(data):
-        #print(i)
-        #print()
+    # print things for debugging
+    if verbose:
+        print()
+        print("max_number is {}".format(max_number))
+        print()
+    # Iteratively add descendants, until there is nothing to add or we reach the maximum number.
+    while i < len(data) and i < max_number:
         this_paper = data[i]
         if isinstance(this_paper, dict):
-            data.extend(inspire_search('refersto:recid:{}'.format(data[i]['recid']),'title,recid'))
-            # solution from https://www.geeksforgeeks.org/python-removing-duplicate-dicts-in-list/ to remove duplicates
+            data.extend(inspire_search('refersto:recid:{}'.format(data[i]['recid']), keystring))
+        # solution from https://www.geeksforgeeks.org/python-removing-duplicate-dicts-in-list/ to remove duplicates
         data = [j for n, j in enumerate(data) if not j in data[n+1:]]
         data = [d for d in data if d]
+        # print things for debugging
+        if verbose:
+            print("Iteration number: {}".format(i))
+            print ("Length of list: {}".format(len(data)))
+            print()
         i += 1
-        #print(len(data))
-        #print()
     data = sorted(data, key=lambda x: x['recid'])
     return data
 
 # get total number of descendants.
 def number_of_descendants(recid):
     return len(get_descendants(recid))
+
+# Get detailed records from list of recids
+#def get_records(recid_list, keylist=[])
+
 
 # Actually do stuff
 def main():
@@ -214,12 +240,20 @@ def main():
     #print(inspire_record('1681268'))
     #recid = recid_from_title("Noether charge, black hole volume, and complexity")
     recid = 1750339
-    descendant_list = get_descendants(recid)
+    descendant_list = get_descendants(recid, 5, [], True)
+    print(len(descendant_list))
+    print()
     print(descendant_list)
     print()
+    filestring = ""
     for dsc in descendant_list:
-        print(get_abstract(dsc['recid']))
-        print()
+        #print(get_abstract(dsc['recid']))
+        filestring += str(dsc['recid'])
+        filestring += "\n"
+        #print()
+    my_file = open('recid_list.txt','w')
+    my_file.write(filestring)
+    my_file.close()
 
     #print(NicitP('451647'))
     #print(NAuthors('1681268'))
