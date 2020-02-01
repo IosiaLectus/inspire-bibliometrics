@@ -68,6 +68,15 @@ def recid_from_title(title):
         return -1
     return data[0]['recid']
 
+# Get paper abstract from recid
+def get_abstract(recid):
+    record = inspire_record(recid,"abstract")
+    # Get abstract text from json
+    pre_abstract = record[0]['abstract']
+    if type(pre_abstract) is dict:
+        return pre_abstract['summary']
+    return record[0]['abstract'][0]['summary']
+
 ################################################################################
 # Below I attempt to implement the citation coin metric of arxiv:1803.10713
 ################################################################################
@@ -159,8 +168,8 @@ def get_descendants(recid):
     data = [d for d in data if d]
     i = 0
     while i < len(data):
-        print(i)
-        print()
+        #print(i)
+        #print()
         this_paper = data[i]
         if isinstance(this_paper, dict):
             data.extend(inspire_search('refersto:recid:{}'.format(data[i]['recid']),'title,recid'))
@@ -168,8 +177,8 @@ def get_descendants(recid):
         data = [j for n, j in enumerate(data) if not j in data[n+1:]]
         data = [d for d in data if d]
         i += 1
-        print(len(data))
-        print()
+        #print(len(data))
+        #print()
     data = sorted(data, key=lambda x: x['recid'])
     return data
 
@@ -203,9 +212,14 @@ def main():
     #print(recid_from_title("Noether charge, black hole volume, and complexity"))
     #print()
     #print(inspire_record('1681268'))
-    recid = recid_from_title("Noether charge, black hole volume, and complexity")
-    print(get_descendants('4181'))
+    #recid = recid_from_title("Noether charge, black hole volume, and complexity")
+    recid = 1750339
+    descendant_list = get_descendants(recid)
+    print(descendant_list)
     print()
+    for dsc in descendant_list:
+        print(get_abstract(dsc['recid']))
+        print()
 
     #print(NicitP('451647'))
     #print(NAuthors('1681268'))
