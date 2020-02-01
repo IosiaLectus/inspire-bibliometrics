@@ -10,26 +10,30 @@ import operator
 import time
 
 # Send a search query to inspirehep.net
-def inspire_search(query,ot=False):
+def inspire_search(query, ot=False, verbose=False, start_at=0):
     url = 'https://inspirehep.net/search?p={}&of=recjson'\
             .format(query)
     if ot:
         url += '&ot={}'.format(ot)
-    url += '&rg=25000'
+    url += '&rg=250'
+    if start_at:
+        url += '&jrec={}'.format(start_at)
     page = requests.get(url)
     data = page.json()
-    #print("\n"+url+"\n")
+    if verbose:
+        print("\n"+url+"\n")
     return data
 
 # Retrieve record from inspirehep.net by recid
-def inspire_record(recid,ot=False):
+def inspire_record(recid, ot=False, verbose=False):
     url = 'https://inspirehep.net/record/{}?of=recjson'\
             .format(recid)
     if ot:
         url += '&ot={}'.format(ot)
     page = requests.get(url)
     data = page.json()
-    #print("\n"+url+"\n")
+    if verbose:
+        print("\n"+url+"\n")
     return data
 
 # Get the set of authors who cite a given author, all identified by their author ids
@@ -76,6 +80,23 @@ def get_abstract(recid):
     if type(pre_abstract) is dict:
         return pre_abstract['summary']
     return record[0]['abstract'][0]['summary']
+
+# Get citing papers
+def get_citing_papers(recid, max_iterations=5, keylist=[], verbose=False):
+    # parse keylist into a string to add to the request
+    keystring = parse_keylist(['recid']+keylist)
+    # maker request
+    data0 = inspire_search('refersto:recid:{}'.format(recid), keystring, verbose)
+    data = data0
+    iteration_count = 0
+    while len(data0)==250 and iteration_count < max_iterations:
+        iteration_count = iteration_count + 1
+        if verbose:
+            print("Iteration count for recid {}: {}".format(recid, iteration_count))
+        data0 = inspire_search('refersto:recid:{}'.format(recid), keystring, verbose, 250*iteration_count)
+        data = data + data0
+    return data
+
 
 ################################################################################
 # Below I attempt to implement the citation coin metric of arxiv:1803.10713
@@ -178,7 +199,7 @@ def get_descendants(recid, max_number=10**4, keylist=[], verbose=False):
     # parse keylist into a string to add to the request
     keystring = parse_keylist(['recid']+keylist)
     # maker request
-    data = inspire_search('refersto:recid:{}'.format(recid),keystring)
+    data = get_citing_papers(recid, max_number, keylist, verbose)
     # save results in 'data'
     data = [d for d in data if d]
     i = 0
@@ -191,7 +212,7 @@ def get_descendants(recid, max_number=10**4, keylist=[], verbose=False):
     while i < len(data) and i < max_number:
         this_paper = data[i]
         if isinstance(this_paper, dict):
-            data.extend(inspire_search('refersto:recid:{}'.format(data[i]['recid']), keystring))
+            data.extend(get_citing_papers(data[i]['recid'], max_number, keylist, verbose))
         # solution from https://www.geeksforgeeks.org/python-removing-duplicate-dicts-in-list/ to remove duplicates
         data = [j for n, j in enumerate(data) if not j in data[n+1:]]
         data = [d for d in data if d]
@@ -239,7 +260,7 @@ def main():
     #print()
     #print(inspire_record('1681268'))
     #recid = recid_from_title("Noether charge, black hole volume, and complexity")
-    recid = 9711200
+    recid = 451647
     descendant_list = get_descendants(recid, 10**5, [], True)
     print(len(descendant_list))
     print()
