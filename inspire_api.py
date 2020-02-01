@@ -239,12 +239,12 @@ def main():
     #print()
     #print(inspire_record('1681268'))
     #recid = recid_from_title("Noether charge, black hole volume, and complexity")
-    recid = 1750339
-    descendant_list = get_descendants(recid, 5, [], True)
+    recid = 9711200
+    descendant_list = get_descendants(recid, 10**5, [], True)
     print(len(descendant_list))
     print()
-    print(descendant_list)
-    print()
+    #print(descendant_list)
+    #print()
     filestring = ""
     for dsc in descendant_list:
         #print(get_abstract(dsc['recid']))
