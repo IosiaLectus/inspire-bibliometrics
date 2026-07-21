@@ -2,6 +2,9 @@
 
 ################################################################################
 # This script is meant to retrieve bibliometric data from inspirehep.net
+#
+# Uses the INSPIRE Literature REST API (https://inspirehep.net/api/literature),
+# which replaced the legacy /search?of=recjson API.
 ################################################################################
 
 # Import useful packages
@@ -9,32 +12,31 @@ import requests
 import operator
 import time
 
-# Send a search query to inspirehep.net
-def inspire_search(query, ot=False, verbose=False, start_at=0):
-    url = 'https://inspirehep.net/search?p={}&of=recjson'\
-            .format(query)
-    if ot:
-        url += '&ot={}'.format(ot)
-    url += '&rg=250'
-    if start_at:
-        url += '&jrec={}'.format(start_at)
-    page = requests.get(url)
-    data = page.json()
-    if verbose:
-        print("\n"+url+"\n")
-    return data
+API_BASE = 'https://inspirehep.net/api/literature'
 
-# Retrieve record from inspirehep.net by recid
-def inspire_record(recid, ot=False, verbose=False):
-    url = 'https://inspirehep.net/record/{}?of=recjson'\
-            .format(recid)
-    if ot:
-        url += '&ot={}'.format(ot)
-    page = requests.get(url)
-    data = page.json()
+# Send a search query to inspirehep.net, returning a list of metadata dicts
+def inspire_search(query, fields=False, verbose=False, page=1, size=250):
+    params = {'q': query, 'size': size, 'page': page}
+    if fields:
+        params['fields'] = fields
+    response = requests.get(API_BASE, params=params)
+    response.raise_for_status()
+    data = response.json()
     if verbose:
-        print("\n"+url+"\n")
-    return data
+        print("\n"+response.url+"\n")
+    return [hit['metadata'] for hit in data['hits']['hits']]
+
+# Retrieve record from inspirehep.net by recid, returning its metadata dict
+def inspire_record(recid, fields=False, verbose=False):
+    params = {}
+    if fields:
+        params['fields'] = fields
+    response = requests.get('{}/{}'.format(API_BASE, recid), params=params)
+    response.raise_for_status()
+    data = response.json()
+    if verbose:
+        print("\n"+response.url+"\n")
+    return data['metadata']
 
 # Get the set of authors who cite a given author, all identified by their author ids
 def unique_citing_authors(author_id):
@@ -45,55 +47,48 @@ def unique_citing_authors(author_id):
 
 # Get the number of authors on a certain work
 def NAuthors(recid):
-    data = inspire_record(recid,'authors')
-    auth_list = [auth for d in data for auth in d['authors']]
-    return(len(auth_list))
+    record = inspire_record(recid,'authors')
+    return len(record.get('authors',[]))
 
 # Get number of citations from a paper
 def NCitations(recid):
     #data = inspire_search('refersto:recid:{}'.format(recid),'reference')
     #return len(data)
-    record = inspire_record(recid,"number_of_citations")
-    if len(record)<1:
-        return 0
-    return record[0]["number_of_citations"]
+    record = inspire_record(recid,"citation_count")
+    return record.get("citation_count",0)
 
 # Get citations for each paper by an author
 def CitationsByPaper(author_id):
-    data = inspire_search('author:{}'.format(author_id),'title,recid')
-    papers = [(d['title']['title'],d['recid']) for d in data]
+    data = inspire_search('author:{}'.format(author_id),'titles,control_number')
+    papers = [(d['titles'][0]['title'],d['control_number']) for d in data]
     ret = sorted([{'title':p[0], 'recid':p[1], 'citations':NCitations(p[1])} for p in papers], key=lambda d: d['citations'], reverse=True)
     return ret
 
 # Get recid by title
 def recid_from_title(title):
-    data = inspire_search("title:'{}'".format(title),'recid')
+    data = inspire_search("title:'{}'".format(title),'control_number')
     if len(data)<1:
         return -1
-    return data[0]['recid']
+    return data[0]['control_number']
 
 # Get paper abstract from recid
 def get_abstract(recid):
-    record = inspire_record(recid,"abstract")
-    # Get abstract text from json
-    pre_abstract = record[0]['abstract']
-    if type(pre_abstract) is dict:
-        return pre_abstract['summary']
-    return record[0]['abstract'][0]['summary']
+    record = inspire_record(recid,"abstracts")
+    return record['abstracts'][0]['value']
 
 # Get citing papers
 def get_citing_papers(recid, max_iterations=5, keylist=[], verbose=False):
     # parse keylist into a string to add to the request
-    keystring = parse_keylist(['recid']+keylist)
+    keystring = parse_keylist(['control_number']+keylist)
     # maker request
-    data0 = inspire_search('refersto:recid:{}'.format(recid), keystring, verbose)
+    data0 = inspire_search('refersto:recid:{}'.format(recid), keystring, verbose, page=1)
     data = data0
     iteration_count = 0
     while len(data0)==250 and iteration_count < max_iterations:
         iteration_count = iteration_count + 1
         if verbose:
             print("Iteration count for recid {}: {}".format(recid, iteration_count))
-        data0 = inspire_search('refersto:recid:{}'.format(recid), keystring, verbose, 250*iteration_count)
+        data0 = inspire_search('refersto:recid:{}'.format(recid), keystring, verbose, page=iteration_count+1)
         data = data + data0
     return data
 
@@ -103,22 +98,22 @@ def get_citing_papers(recid, max_iterations=5, keylist=[], verbose=False):
 ################################################################################
 
 def NicitP(recid):
-    data = inspire_search('refersto:recid:{}'.format(recid),'reference')
-    refs = filter(None,[d['reference'] for d in data])
+    data = inspire_search('refersto:recid:{}'.format(recid),'references')
+    refs = filter(None,[d.get('references') for d in data])
     nlist = [(1/len(r)) for r in refs]
     return(sum(nlist))
 
 # This is what 1803.10713 refers to as citation coin
 def AuthCoin(author_id):
-    data = inspire_search('author:{}'.format(author_id),'recid')
-    recids = [d['recid'] for d in data]
+    data = inspire_search('author:{}'.format(author_id),'control_number')
+    recids = [d['control_number'] for d in data]
     tosum = [(NicitP(r) - 1)/NAuthors(r) for r in recids]
     return sum(tosum)
 
 # Given an author, list the AutCoin of each paper
 def AuthCoinByPaper(author_id):
-    data = inspire_search('author:{}'.format(author_id),'title,recid')
-    papers = [(d['title']['title'],d['recid']) for d in data]
+    data = inspire_search('author:{}'.format(author_id),'titles,control_number')
+    papers = [(d['titles'][0]['title'],d['control_number']) for d in data]
     ret = sorted([{'title':p[0], 'recid':p[1], 'Nauthors':NAuthors(p[1]), 'authcoin':(NicitP(p[1]) - 1)} for p in papers], key=lambda d: d['authcoin'], reverse=True)
     return ret
 
@@ -148,15 +143,15 @@ def PositiveAuthCoin(author_id):
 def i10_citations(recid,n,k=10):
     if n<1:
         return NCitations(recid)
-    data = inspire_search('refersto:recid:{}'.format(recid),'recid,number_of_citations')
+    data = inspire_search('refersto:recid:{}'.format(recid),'control_number,citation_count')
     data = [d for d in data if d]
     print(data)
     print()
     data2 = []
     if n==1:
-        data2 = [d['number_of_citations'] for d in data]
+        data2 = [d['citation_count'] for d in data]
     else:
-        data2 = [i10_citations(d['recid'],n-1,k) for d in data]
+        data2 = [i10_citations(d['control_number'],n-1,k) for d in data]
     print(data2)
     print()
     data2 = [x for x in data2 if x>k]
@@ -166,15 +161,15 @@ def i10_citations(recid,n,k=10):
 def h_index_citations(recid,n):
     if n<1:
         return NCitations(recid)
-    data = inspire_search('refersto:recid:{}'.format(recid),'recid,number_of_citations')
+    data = inspire_search('refersto:recid:{}'.format(recid),'control_number,citation_count')
     data = [d for d in data if d]
     print(data)
     print()
     data2 = []
     if n==1:
-        data2 = [d['number_of_citations'] for d in data]
+        data2 = [d['citation_count'] for d in data]
     else:
-        data2 = [h_index_citations(d['recid'],n-1) for d in data]
+        data2 = [h_index_citations(d['control_number'],n-1) for d in data]
     print(data2)
     print()
     h_index = 0
@@ -197,7 +192,7 @@ def parse_keylist(keylist):
 # get all papers 'downstream' from the current paper in the citation graph, i.e. the paper's descendants.
 def get_descendants(recid, max_number=10**4, keylist=[], verbose=False):
     # parse keylist into a string to add to the request
-    keystring = parse_keylist(['recid']+keylist)
+    keystring = parse_keylist(['control_number']+keylist)
     # maker request
     data = get_citing_papers(recid, max_number, keylist, verbose)
     # save results in 'data'
@@ -212,7 +207,7 @@ def get_descendants(recid, max_number=10**4, keylist=[], verbose=False):
     while i < len(data) and i < max_number:
         this_paper = data[i]
         if isinstance(this_paper, dict):
-            data.extend(get_citing_papers(data[i]['recid'], max_number, keylist, verbose))
+            data.extend(get_citing_papers(data[i]['control_number'], max_number, keylist, verbose))
         # solution from https://www.geeksforgeeks.org/python-removing-duplicate-dicts-in-list/ to remove duplicates
         data = [j for n, j in enumerate(data) if not j in data[n+1:]]
         data = [d for d in data if d]
@@ -222,7 +217,7 @@ def get_descendants(recid, max_number=10**4, keylist=[], verbose=False):
             print ("Length of list: {}".format(len(data)))
             print()
         i += 1
-    data = sorted(data, key=lambda x: x['recid'])
+    data = sorted(data, key=lambda x: x['control_number'])
     return data
 
 # get total number of descendants.
@@ -268,8 +263,8 @@ def main():
     #print()
     filestring = ""
     for dsc in descendant_list:
-        #print(get_abstract(dsc['recid']))
-        filestring += str(dsc['recid'])
+        #print(get_abstract(dsc['control_number']))
+        filestring += str(dsc['control_number'])
         filestring += "\n"
         #print()
     my_file = open('recid_list.txt','w')
