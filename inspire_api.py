@@ -76,19 +76,27 @@ def get_abstract(recid):
     record = inspire_record(recid,"abstracts")
     return record['abstracts'][0]['value']
 
+# INSPIRE's search API refuses to page past this many results for a single query (400 Bad Request)
+MAX_RESULT_WINDOW = 10000
+
 # Get citing papers
 def get_citing_papers(recid, max_iterations=5, keylist=[], verbose=False):
     # parse keylist into a string to add to the request
     keystring = parse_keylist(['control_number']+keylist)
+    size = 250
     # maker request
-    data0 = inspire_search('refersto:recid:{}'.format(recid), keystring, verbose, page=1)
+    data0 = inspire_search('refersto:recid:{}'.format(recid), keystring, verbose, page=1, size=size)
     data = data0
     iteration_count = 0
-    while len(data0)==250 and iteration_count < max_iterations:
+    while len(data0)==size and iteration_count < max_iterations:
         iteration_count = iteration_count + 1
+        next_page = iteration_count + 1
+        if next_page*size > MAX_RESULT_WINDOW:
+            print("Warning: recid {} has more than {} citing papers; INSPIRE's search API caps results at {} per query, so later citations are omitted.".format(recid, MAX_RESULT_WINDOW, MAX_RESULT_WINDOW))
+            break
         if verbose:
             print("Iteration count for recid {}: {}".format(recid, iteration_count))
-        data0 = inspire_search('refersto:recid:{}'.format(recid), keystring, verbose, page=iteration_count+1)
+        data0 = inspire_search('refersto:recid:{}'.format(recid), keystring, verbose, page=next_page, size=size)
         data = data + data0
     return data
 
