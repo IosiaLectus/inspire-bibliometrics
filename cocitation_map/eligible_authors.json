@@ -1,0 +1,3980 @@
+[
+ {
+  "bai": "Shinsei.Ryu.1",
+  "name": "Ryu, Shinsei",
+  "first_year": 2001,
+  "top3_avg": 2962.67
+ },
+ {
+  "bai": "D.Stanford.1",
+  "name": "Stanford, Douglas",
+  "first_year": 2011,
+  "top3_avg": 2047.33
+ },
+ {
+  "bai": "X.L.Qi.1",
+  "name": "Qi, Xiao-Liang",
+  "first_year": 2004,
+  "top3_avg": 2041.67
+ },
+ {
+  "bai": "A.W.Harrow.1",
+  "name": "Harrow, Aram W.",
+  "first_year": 2002,
+  "top3_avg": 1951.67
+ },
+ {
+  "bai": "S.Pirandola.2",
+  "name": "Pirandola, Stefano",
+  "first_year": 2002,
+  "top3_avg": 1766.33
+ },
+ {
+  "bai": "S.Wehner.1",
+  "name": "Wehner, Stephanie",
+  "first_year": 2005,
+  "top3_avg": 1660.33
+ },
+ {
+  "bai": "V.Cardoso.1",
+  "name": "Cardoso, Vitor",
+  "first_year": 2001,
+  "top3_avg": 1648.33
+ },
+ {
+  "bai": "Xiong.Feng.Ma.1",
+  "name": "Ma, Xiongfeng",
+  "first_year": 2005,
+  "top3_avg": 1355.0
+ },
+ {
+  "bai": "D.L.Jafferis.1",
+  "name": "Jafferis, Daniel",
+  "first_year": 2005,
+  "top3_avg": 1352.0
+ },
+ {
+  "bai": "A.Almheiri.1",
+  "name": "Almheiri, Ahmed",
+  "first_year": 2011,
+  "top3_avg": 1299.67
+ },
+ {
+  "bai": "C.Monroe.1",
+  "name": "Monroe, Christopher",
+  "first_year": 2004,
+  "top3_avg": 1206.33
+ },
+ {
+  "bai": "Kazuharu.Bamba.1",
+  "name": "Bamba, Kazuharu",
+  "first_year": 2003,
+  "top3_avg": 1111.0
+ },
+ {
+  "bai": "E.Altman.1",
+  "name": "Altman, Ehud",
+  "first_year": 2006,
+  "top3_avg": 1081.67
+ },
+ {
+  "bai": "J.Sully.1",
+  "name": "Sully, James",
+  "first_year": 2008,
+  "top3_avg": 1072.67
+ },
+ {
+  "bai": "E.N.Saridakis.1",
+  "name": "Saridakis, Emmanuel N.",
+  "first_year": 2003,
+  "top3_avg": 1050.67
+ },
+ {
+  "bai": "P.Calabrese.1",
+  "name": "Calabrese, Pasquale",
+  "first_year": 2000,
+  "top3_avg": 1030.67
+ },
+ {
+  "bai": "A.Nahum.1",
+  "name": "Nahum, Adam",
+  "first_year": 2011,
+  "top3_avg": 1004.33
+ },
+ {
+  "bai": "M.Cerezo.1",
+  "name": "Cerezo, M.",
+  "first_year": 2015,
+  "top3_avg": 985.0
+ },
+ {
+  "bai": "X.Yuan.3",
+  "name": "Yuan, Xiao",
+  "first_year": 2004,
+  "top3_avg": 957.0
+ },
+ {
+  "bai": "Thomas.E.Hartman.1",
+  "name": "Hartman, Thomas",
+  "first_year": 2006,
+  "top3_avg": 949.67
+ },
+ {
+  "bai": "Z.Yang.32",
+  "name": "Yang, Zhenbin",
+  "first_year": 2013,
+  "top3_avg": 936.33
+ },
+ {
+  "bai": "P.Pani.1",
+  "name": "Pani, Paolo",
+  "first_year": 2005,
+  "top3_avg": 932.67
+ },
+ {
+  "bai": "R.Kueng.1",
+  "name": "Kueng, Richard",
+  "first_year": 2014,
+  "top3_avg": 927.0
+ },
+ {
+  "bai": "B.Swingle.1",
+  "name": "Swingle, Brian",
+  "first_year": 2005,
+  "top3_avg": 918.33
+ },
+ {
+  "bai": "Geoffrey.R.Penington.1",
+  "name": "Penington, Geoff",
+  "first_year": 2017,
+  "top3_avg": 912.33
+ },
+ {
+  "bai": "K.M.Zurek.1",
+  "name": "Zurek, Kathryn M.",
+  "first_year": 2004,
+  "top3_avg": 911.67
+ },
+ {
+  "bai": "Ying.Zhao.1",
+  "name": "Zhao, Ying",
+  "first_year": 2014,
+  "top3_avg": 872.0
+ },
+ {
+  "bai": "J.Haah.1",
+  "name": "Haah, Jeongwan",
+  "first_year": 2011,
+  "top3_avg": 871.33
+ },
+ {
+  "bai": "K.Modi.1",
+  "name": "Modi, Kavan",
+  "first_year": 2007,
+  "top3_avg": 869.67
+ },
+ {
+  "bai": "S.Vijay.1",
+  "name": "Vijay, Sagar",
+  "first_year": 2015,
+  "top3_avg": 851.33
+ },
+ {
+  "bai": "T.J.Osborne.1",
+  "name": "Osborne, Tobias J.",
+  "first_year": 2000,
+  "top3_avg": 850.67
+ },
+ {
+  "bai": "D.Harlow.1",
+  "name": "Harlow, Daniel",
+  "first_year": 2009,
+  "top3_avg": 836.67
+ },
+ {
+  "bai": "Daniel.A.Roberts.1",
+  "name": "Roberts, Daniel A.",
+  "first_year": 2012,
+  "top3_avg": 798.0
+ },
+ {
+  "bai": "E.Berg.2",
+  "name": "Berg, Erez",
+  "first_year": 2009,
+  "top3_avg": 772.33
+ },
+ {
+  "bai": "Thomas.Faulkner.1",
+  "name": "Faulkner, Thomas",
+  "first_year": 2006,
+  "top3_avg": 765.67
+ },
+ {
+  "bai": "K.Sharma.2",
+  "name": "Sharma, Kunal",
+  "first_year": 2014,
+  "top3_avg": 761.0
+ },
+ {
+  "bai": "A.C.Wall.1",
+  "name": "Wall, Aron C.",
+  "first_year": 2007,
+  "top3_avg": 750.0
+ },
+ {
+  "bai": "N.Engelhardt.1",
+  "name": "Engelhardt, Netta",
+  "first_year": 2010,
+  "top3_avg": 740.33
+ },
+ {
+  "bai": "Andrew.Lucas.1",
+  "name": "Lucas, Andrew",
+  "first_year": 2013,
+  "top3_avg": 738.33
+ },
+ {
+  "bai": "F.G.S.L.Brandao.1",
+  "name": "Brand\u00e3o, Fernando G.S.L.",
+  "first_year": 2004,
+  "top3_avg": 731.0
+ },
+ {
+  "bai": "A.Tajdini.1",
+  "name": "Tajdini, Amirhossein",
+  "first_year": 2016,
+  "top3_avg": 723.67
+ },
+ {
+  "bai": "E.Shaghoulian.1",
+  "name": "Shaghoulian, Edgar",
+  "first_year": 2009,
+  "top3_avg": 720.33
+ },
+ {
+  "bai": "Beni.Yoshida.1",
+  "name": "Yoshida, Beni",
+  "first_year": 2008,
+  "top3_avg": 709.33
+ },
+ {
+  "bai": "A.R.Brown.1",
+  "name": "Brown, Adam R.",
+  "first_year": 2007,
+  "top3_avg": 703.67
+ },
+ {
+  "bai": "X.Dong.1",
+  "name": "Dong, Xi",
+  "first_year": 2006,
+  "top3_avg": 673.67
+ },
+ {
+  "bai": "E.Tonni.1",
+  "name": "Tonni, Erik",
+  "first_year": 2001,
+  "top3_avg": 668.33
+ },
+ {
+  "bai": "V.Khemani.3",
+  "name": "Khemani, Vedika",
+  "first_year": 2002,
+  "top3_avg": 661.67
+ },
+ {
+  "bai": "P.Hauke.1",
+  "name": "Hauke, Philipp",
+  "first_year": 2010,
+  "top3_avg": 650.33
+ },
+ {
+  "bai": "M.Campisi.1",
+  "name": "Campisi, Michele",
+  "first_year": 2008,
+  "top3_avg": 607.33
+ },
+ {
+  "bai": "H.Maxfield.1",
+  "name": "Maxfield, Henry",
+  "first_year": 2013,
+  "top3_avg": 600.33
+ },
+ {
+  "bai": "G.Chiribella.1",
+  "name": "Chiribella, Giulio",
+  "first_year": 2004,
+  "top3_avg": 580.33
+ },
+ {
+  "bai": "Suvrat.Raju.1",
+  "name": "Raju, Suvrat",
+  "first_year": 2005,
+  "top3_avg": 570.0
+ },
+ {
+  "bai": "Renato.Renner.1",
+  "name": "Renner, Renato",
+  "first_year": 2002,
+  "top3_avg": 566.33
+ },
+ {
+  "bai": "A.M.Rey.4",
+  "name": "Rey, Ana Maria",
+  "first_year": 2003,
+  "top3_avg": 562.0
+ },
+ {
+  "bai": "G.Gur.Ari.1",
+  "name": "Gur-Ari, Guy",
+  "first_year": 2011,
+  "top3_avg": 547.67
+ },
+ {
+  "bai": "F.Pastawski.1",
+  "name": "Pastawski, Fernando",
+  "first_year": 2008,
+  "top3_avg": 546.0
+ },
+ {
+  "bai": "Jordan.Cotler.1",
+  "name": "Cotler, Jordan",
+  "first_year": 2000,
+  "top3_avg": 543.67
+ },
+ {
+  "bai": "S.El.Showk.1",
+  "name": "El-Showk, Sheer",
+  "first_year": 2006,
+  "top3_avg": 538.0
+ },
+ {
+  "bai": "R.Mahajan.3",
+  "name": "Mahajan, Raghu",
+  "first_year": 2013,
+  "top3_avg": 537.33
+ },
+ {
+  "bai": "Z.Holmes.2",
+  "name": "Holmes, Zo\u00eb",
+  "first_year": 2019,
+  "top3_avg": 532.33
+ },
+ {
+  "bai": "Curt.von.Keyserlingk.1",
+  "name": "von Keyserlingk, Curt",
+  "first_year": 2012,
+  "top3_avg": 507.0
+ },
+ {
+  "bai": "M.Hanada.1",
+  "name": "Hanada, Masanori",
+  "first_year": 2004,
+  "top3_avg": 504.33
+ },
+ {
+  "bai": "M.Znidaric.1",
+  "name": "\u017dnidari\u010d, Marko",
+  "first_year": 2001,
+  "top3_avg": 495.0
+ },
+ {
+  "bai": "A.Streicher.1",
+  "name": "Streicher, Alexandre",
+  "first_year": 2016,
+  "top3_avg": 493.33
+ },
+ {
+  "bai": "K.Papadodimas.1",
+  "name": "Papadodimas, Kyriakos",
+  "first_year": 2003,
+  "top3_avg": 490.33
+ },
+ {
+  "bai": "L.Modesto.1",
+  "name": "Modesto, Leonardo",
+  "first_year": 2002,
+  "top3_avg": 489.33
+ },
+ {
+  "bai": "M.Tezuka.1",
+  "name": "Tezuka, Masaki",
+  "first_year": 2008,
+  "top3_avg": 489.33
+ },
+ {
+  "bai": "N.Y.Yao.1",
+  "name": "Yao, Norman Y.",
+  "first_year": 2010,
+  "top3_avg": 489.0
+ },
+ {
+  "bai": "Adolfo.del.Campo.1",
+  "name": "del Campo, Adolfo",
+  "first_year": 2005,
+  "top3_avg": 483.0
+ },
+ {
+  "bai": "M.M.Wilde.6",
+  "name": "Wilde, Mark M.",
+  "first_year": 2007,
+  "top3_avg": 477.0
+ },
+ {
+  "bai": "A.Elben.1",
+  "name": "Elben, Andreas",
+  "first_year": 2017,
+  "top3_avg": 476.0
+ },
+ {
+  "bai": "B.Vermersch.1",
+  "name": "Vermersch, Beno\u00eet",
+  "first_year": 2011,
+  "top3_avg": 476.0
+ },
+ {
+  "bai": "S.Deffner.1",
+  "name": "Deffner, Sebastian",
+  "first_year": 2008,
+  "top3_avg": 470.33
+ },
+ {
+  "bai": "K.Azuma.1",
+  "name": "Azuma, Koji",
+  "first_year": 2001,
+  "top3_avg": 461.67
+ },
+ {
+  "bai": "S.Pasterski.1",
+  "name": "Pasterski, Sabrina",
+  "first_year": 2014,
+  "top3_avg": 457.67
+ },
+ {
+  "bai": "Monika.H.Schleier-Smith.1",
+  "name": "Schleier-Smith, Monika",
+  "first_year": 2010,
+  "top3_avg": 447.67
+ },
+ {
+  "bai": "T.G.Mertens.1",
+  "name": "Mertens, Thomas G.",
+  "first_year": 2013,
+  "top3_avg": 446.33
+ },
+ {
+  "bai": "B.Bertini.1",
+  "name": "Bertini, Bruno",
+  "first_year": 2014,
+  "top3_avg": 443.33
+ },
+ {
+  "bai": "M.J.Gullans.1",
+  "name": "Gullans, Michael J.",
+  "first_year": 2006,
+  "top3_avg": 442.67
+ },
+ {
+  "bai": "Xiangyu.Cao.1",
+  "name": "Cao, Xiangyu",
+  "first_year": 2016,
+  "top3_avg": 438.67
+ },
+ {
+  "bai": "Yu.Bao.2",
+  "name": "Bao, Yimu",
+  "first_year": 2010,
+  "top3_avg": 433.0
+ },
+ {
+  "bai": "D.M.LaRocca.1",
+  "name": "Larocca, Martin",
+  "first_year": 2017,
+  "top3_avg": 424.0
+ },
+ {
+  "bai": "P.Hosur.1",
+  "name": "Hosur, Pavan",
+  "first_year": 2010,
+  "top3_avg": 418.33
+ },
+ {
+  "bai": "M.P.Heller.1",
+  "name": "Heller, Michal P.",
+  "first_year": 2007,
+  "top3_avg": 405.33
+ },
+ {
+  "bai": "H.M.Tran.1",
+  "name": "Tran, Minh C.",
+  "first_year": 2010,
+  "top3_avg": 403.67
+ },
+ {
+  "bai": "J.De.Nardis.1",
+  "name": "De Nardis, Jacopo",
+  "first_year": 2015,
+  "top3_avg": 399.67
+ },
+ {
+  "bai": "C.Krishnan.1",
+  "name": "Krishnan, Chethan",
+  "first_year": 2005,
+  "top3_avg": 399.67
+ },
+ {
+  "bai": "Kinjalk.Lochan.1",
+  "name": "Lochan, Kinjalk",
+  "first_year": 2009,
+  "top3_avg": 387.0
+ },
+ {
+  "bai": "N.Lambert.1",
+  "name": "Lambert, Neill",
+  "first_year": 2004,
+  "top3_avg": 385.67
+ },
+ {
+  "bai": "A.N.Jordan.3",
+  "name": "Jordan, Andrew N.",
+  "first_year": 2001,
+  "top3_avg": 380.67
+ },
+ {
+  "bai": "F.Dupuis.1",
+  "name": "Dupuis, Fr\u00e9d\u00e9ric",
+  "first_year": 2006,
+  "top3_avg": 377.33
+ },
+ {
+  "bai": "T.Scaffidi.1",
+  "name": "Scaffidi, Thomas",
+  "first_year": 2014,
+  "top3_avg": 373.0
+ },
+ {
+  "bai": "S.Nezami.1",
+  "name": "Nezami, Sepehr",
+  "first_year": 2015,
+  "top3_avg": 369.67
+ },
+ {
+  "bai": "Y.Gu.4",
+  "name": "Gu, Yingfei",
+  "first_year": 2015,
+  "top3_avg": 368.67
+ },
+ {
+  "bai": "A.Bernamonti.1",
+  "name": "Bernamonti, Alice",
+  "first_year": 2007,
+  "top3_avg": 352.33
+ },
+ {
+  "bai": "R.Meyer.2",
+  "name": "Meyer, Ren\u00e9",
+  "first_year": 2005,
+  "top3_avg": 348.67
+ },
+ {
+  "bai": "Alek.Bedroya.1",
+  "name": "Bedroya, Alek",
+  "first_year": 2017,
+  "top3_avg": 347.0
+ },
+ {
+  "bai": "M.Mezei.1",
+  "name": "Mezei, M\u00e1rk",
+  "first_year": 2008,
+  "top3_avg": 346.67
+ },
+ {
+  "bai": "D.Markham.1",
+  "name": "Markham, Damian",
+  "first_year": 2001,
+  "top3_avg": 346.33
+ },
+ {
+  "bai": "O.Luongo.1",
+  "name": "Luongo, Orlando",
+  "first_year": 2009,
+  "top3_avg": 346.0
+ },
+ {
+  "bai": "Yi.Zhuang.You.1",
+  "name": "You, Yi-Zhuang",
+  "first_year": 2011,
+  "top3_avg": 343.67
+ },
+ {
+  "bai": "Shira.Chapman.1",
+  "name": "Chapman, Shira",
+  "first_year": 2012,
+  "top3_avg": 341.67
+ },
+ {
+  "bai": "H.Marrochio.1",
+  "name": "Marrochio, Hugo",
+  "first_year": 2013,
+  "top3_avg": 341.67
+ },
+ {
+  "bai": "R.Vasseur.1",
+  "name": "Vasseur, Romain",
+  "first_year": 2011,
+  "top3_avg": 341.0
+ },
+ {
+  "bai": "Bartlomiej.Czech.1",
+  "name": "Czech, Bartlomiej",
+  "first_year": 2006,
+  "top3_avg": 340.67
+ },
+ {
+  "bai": "Nima.Lashkari.1",
+  "name": "Lashkari, Nima",
+  "first_year": 2005,
+  "top3_avg": 340.0
+ },
+ {
+  "bai": "Alioscia.Hamma.1",
+  "name": "Hamma, Alioscia",
+  "first_year": 2004,
+  "top3_avg": 337.67
+ },
+ {
+  "bai": "A.SafaviNaini.1",
+  "name": "Safavi-Naini, Arghavan",
+  "first_year": 2011,
+  "top3_avg": 335.33
+ },
+ {
+  "bai": "D.Carmi.1",
+  "name": "Carmi, Dean",
+  "first_year": 2011,
+  "top3_avg": 335.33
+ },
+ {
+  "bai": "L.Y.Hung.1",
+  "name": "Hung, Ling-Yan",
+  "first_year": 2006,
+  "top3_avg": 333.67
+ },
+ {
+  "bai": "M.Shigemori.1",
+  "name": "Shigemori, Masaki",
+  "first_year": 2001,
+  "top3_avg": 332.33
+ },
+ {
+  "bai": "G.Bentsen.1",
+  "name": "Bentsen, Gregory",
+  "first_year": 2016,
+  "top3_avg": 331.33
+ },
+ {
+  "bai": "Run.Qiu.Yang.1",
+  "name": "Yang, Run-Qiu",
+  "first_year": 2013,
+  "top3_avg": 330.0
+ },
+ {
+  "bai": "A.Maselli.2",
+  "name": "Maselli, Andrea",
+  "first_year": 2011,
+  "top3_avg": 323.67
+ },
+ {
+  "bai": "S.Gopalakrishnan.1",
+  "name": "Gopalakrishnan, Sarang",
+  "first_year": 2009,
+  "top3_avg": 321.0
+ },
+ {
+  "bai": "A.C.Potter.1",
+  "name": "Potter, Andrew C.",
+  "first_year": 2012,
+  "top3_avg": 320.33
+ },
+ {
+  "bai": "P.Kos.1",
+  "name": "Kos, Pavel",
+  "first_year": 2017,
+  "top3_avg": 315.67
+ },
+ {
+  "bai": "D.Poletti.3",
+  "name": "Poletti, Dario",
+  "first_year": 2006,
+  "top3_avg": 314.0
+ },
+ {
+  "bai": "Yuxiao.Liu.1",
+  "name": "Liu, Yu-Xiao",
+  "first_year": 2004,
+  "top3_avg": 311.67
+ },
+ {
+  "bai": "P.Caputa.1",
+  "name": "Caputa, Pawel",
+  "first_year": 2009,
+  "top3_avg": 310.33
+ },
+ {
+  "bai": "Li.Li.2",
+  "name": "Li, Li",
+  "first_year": 2011,
+  "top3_avg": 309.0
+ },
+ {
+  "bai": "Cenke.Xu.1",
+  "name": "Xu, Cenke",
+  "first_year": 2004,
+  "top3_avg": 307.0
+ },
+ {
+  "bai": "H.Jeong.4",
+  "name": "Jeong, Hyunseok",
+  "first_year": 2000,
+  "top3_avg": 306.33
+ },
+ {
+  "bai": "Alessio.Serafini.1",
+  "name": "Serafini, Alessio",
+  "first_year": 2003,
+  "top3_avg": 304.67
+ },
+ {
+  "bai": "Ro.Jefferson.1",
+  "name": "Jefferson, Ro",
+  "first_year": 2013,
+  "top3_avg": 295.67
+ },
+ {
+  "bai": "A.Arrasmith.1",
+  "name": "Arrasmith, Andrew",
+  "first_year": 2017,
+  "top3_avg": 295.67
+ },
+ {
+  "bai": "Z.Sherkatghanad.1",
+  "name": "Sherkatghanad, Z.",
+  "first_year": 2011,
+  "top3_avg": 290.67
+ },
+ {
+  "bai": "V.Alba.2",
+  "name": "Alba, Vincenzo",
+  "first_year": 2009,
+  "top3_avg": 289.67
+ },
+ {
+  "bai": "Venkatesa.Chandrasekaran.1",
+  "name": "Chandrasekaran, Venkatesa",
+  "first_year": 2017,
+  "top3_avg": 288.67
+ },
+ {
+  "bai": "A.Dymarsky.1",
+  "name": "Dymarsky, Anatoly",
+  "first_year": 2001,
+  "top3_avg": 286.0
+ },
+ {
+  "bai": "H.K.Kunduri.1",
+  "name": "Kunduri, Hari K.",
+  "first_year": 2003,
+  "top3_avg": 281.33
+ },
+ {
+  "bai": "J.Martinez.Magan.1",
+  "name": "Magan, Javier M.",
+  "first_year": 2010,
+  "top3_avg": 278.33
+ },
+ {
+  "bai": "Eugenio.Bianchi.1",
+  "name": "Bianchi, Eugenio",
+  "first_year": 2006,
+  "top3_avg": 277.0
+ },
+ {
+  "bai": "Peng.Wang.1",
+  "name": "Wang, Peng",
+  "first_year": 2003,
+  "top3_avg": 275.0
+ },
+ {
+  "bai": "T.Kuwahara.2",
+  "name": "Kuwahara, Tomotaka",
+  "first_year": 2011,
+  "top3_avg": 274.0
+ },
+ {
+  "bai": "S.F.E.Oliviero.1",
+  "name": "Oliviero, Salvatore Francesco Emanuele",
+  "first_year": 2011,
+  "top3_avg": 273.67
+ },
+ {
+  "bai": "Jun.Yu.Liu.1",
+  "name": "Liu, Junyu",
+  "first_year": 2015,
+  "top3_avg": 272.0
+ },
+ {
+  "bai": "S.Leichenauer.1",
+  "name": "Leichenauer, Stefan",
+  "first_year": 2008,
+  "top3_avg": 270.0
+ },
+ {
+  "bai": "A.Golovnev.1",
+  "name": "Golovnev, Alexey",
+  "first_year": 2003,
+  "top3_avg": 263.33
+ },
+ {
+  "bai": "B.Stoica.1",
+  "name": "Stoica, Bogdan",
+  "first_year": 2012,
+  "top3_avg": 262.0
+ },
+ {
+  "bai": "S.H.Hendi.1",
+  "name": "Hendi, S.H.",
+  "first_year": 2006,
+  "top3_avg": 261.67
+ },
+ {
+  "bai": "J.Murugan.1",
+  "name": "Murugan, Jeff",
+  "first_year": 2000,
+  "top3_avg": 261.33
+ },
+ {
+  "bai": "O.Szehr.1",
+  "name": "Szehr, Oleg",
+  "first_year": 2012,
+  "top3_avg": 260.33
+ },
+ {
+  "bai": "M.Schiro.1",
+  "name": "Schir\u00f2, Marco",
+  "first_year": 2012,
+  "top3_avg": 260.33
+ },
+ {
+  "bai": "Masamichi.Miyaji.1",
+  "name": "Miyaji, Masamichi",
+  "first_year": 2014,
+  "top3_avg": 259.33
+ },
+ {
+  "bai": "D.L.Deng.1",
+  "name": "Deng, Dong-Ling",
+  "first_year": 2008,
+  "top3_avg": 258.67
+ },
+ {
+  "bai": "Masahiro.Nozaki.1",
+  "name": "Nozaki, Masahiro",
+  "first_year": 2012,
+  "top3_avg": 255.0
+ },
+ {
+  "bai": "N.Kundu.2",
+  "name": "Kundu, Nilay",
+  "first_year": 2011,
+  "top3_avg": 254.33
+ },
+ {
+  "bai": "K.Watanabe.11",
+  "name": "Watanabe, Kento",
+  "first_year": 2014,
+  "top3_avg": 253.67
+ },
+ {
+  "bai": "G.Raposo.1",
+  "name": "Martinho Dos Santos Raposo, Guilherme",
+  "first_year": 2017,
+  "top3_avg": 252.0
+ },
+ {
+  "bai": "P.Bueno.1",
+  "name": "Bueno, Pablo",
+  "first_year": 2012,
+  "top3_avg": 251.33
+ },
+ {
+  "bai": "P.A.Cano.1",
+  "name": "Cano, Pablo A.",
+  "first_year": 2016,
+  "top3_avg": 251.33
+ },
+ {
+  "bai": "D.Rosa.2",
+  "name": "Rosa, Dario",
+  "first_year": 2009,
+  "top3_avg": 250.67
+ },
+ {
+  "bai": "J.Abedi.1",
+  "name": "Abedi, Jahed",
+  "first_year": 2013,
+  "top3_avg": 249.0
+ },
+ {
+  "bai": "E.Tang.2",
+  "name": "Tang, Eugene",
+  "first_year": 2011,
+  "top3_avg": 248.67
+ },
+ {
+  "bai": "O.Fawzi.1",
+  "name": "Fawzi, Omar",
+  "first_year": 2011,
+  "top3_avg": 248.0
+ },
+ {
+  "bai": "N.Yunger.Halpern.1",
+  "name": "Yunger Halpern, Nicole",
+  "first_year": 2015,
+  "top3_avg": 248.0
+ },
+ {
+  "bai": "Phuc.H.Nguyen.1",
+  "name": "Nguyen, Phuc Hong",
+  "first_year": 2013,
+  "top3_avg": 247.67
+ },
+ {
+  "bai": "Hosho.Katsura.1",
+  "name": "Katsura, Hosho",
+  "first_year": 2004,
+  "top3_avg": 247.33
+ },
+ {
+  "bai": "Robie.A.Hennigar.1",
+  "name": "Hennigar, Robie A.",
+  "first_year": 2014,
+  "top3_avg": 246.0
+ },
+ {
+  "bai": "Zhong.Ying.Fan.2",
+  "name": "Fan, Zhong-Ying",
+  "first_year": 2013,
+  "top3_avg": 245.67
+ },
+ {
+  "bai": "T.S.Schuster.1",
+  "name": "Schuster, Thomas",
+  "first_year": 2015,
+  "top3_avg": 243.33
+ },
+ {
+  "bai": "Quntao.Zhuang.1",
+  "name": "Zhuang, Quntao",
+  "first_year": 2012,
+  "top3_avg": 243.33
+ },
+ {
+  "bai": "Debanjan.Chowdhury.1",
+  "name": "Chowdhury, Debanjan",
+  "first_year": 2012,
+  "top3_avg": 242.67
+ },
+ {
+  "bai": "Ping.Gao.1",
+  "name": "Gao, Ping",
+  "first_year": 2016,
+  "top3_avg": 240.0
+ },
+ {
+  "bai": "Patrick.I.Draper.1",
+  "name": "Draper, Patrick",
+  "first_year": 2009,
+  "top3_avg": 237.33
+ },
+ {
+  "bai": "T.Zhou.7",
+  "name": "Zhou, Tianci",
+  "first_year": 2014,
+  "top3_avg": 237.33
+ },
+ {
+  "bai": "J.Sonner.1",
+  "name": "Sonner, Julian",
+  "first_year": 2005,
+  "top3_avg": 236.67
+ },
+ {
+  "bai": "B.Fefferman.1",
+  "name": "Fefferman, Bill",
+  "first_year": 2008,
+  "top3_avg": 233.67
+ },
+ {
+  "bai": "G.Salton.1",
+  "name": "Salton, Grant",
+  "first_year": 2013,
+  "top3_avg": 233.0
+ },
+ {
+  "bai": "M.A.Blake.1",
+  "name": "Blake, Mike",
+  "first_year": 2012,
+  "top3_avg": 232.67
+ },
+ {
+  "bai": "T.Ugajin.1",
+  "name": "Ugajin, Tomonori",
+  "first_year": 2010,
+  "top3_avg": 232.33
+ },
+ {
+  "bai": "Grant.N.Remmen.1",
+  "name": "Remmen, Grant N.",
+  "first_year": 2013,
+  "top3_avg": 229.67
+ },
+ {
+  "bai": "L.Iliesiu.1",
+  "name": "Iliesiu, Luca V.",
+  "first_year": 2013,
+  "top3_avg": 229.67
+ },
+ {
+  "bai": "Norihiro.Iizuka.1",
+  "name": "Iizuka, Norihiro",
+  "first_year": 2001,
+  "top3_avg": 229.0
+ },
+ {
+  "bai": "H.Yao.5",
+  "name": "Yao, Hong",
+  "first_year": 2007,
+  "top3_avg": 228.33
+ },
+ {
+  "bai": "M.Ippoliti.1",
+  "name": "Ippoliti, Matteo",
+  "first_year": 2015,
+  "top3_avg": 227.33
+ },
+ {
+  "bai": "Hong.Zhe.Chen.1",
+  "name": "Chen, Hong Zhe",
+  "first_year": 2017,
+  "top3_avg": 225.67
+ },
+ {
+  "bai": "Lucas.Hackl.1",
+  "name": "Hackl, Lucas",
+  "first_year": 2012,
+  "top3_avg": 225.33
+ },
+ {
+  "bai": "N.Hunter.Jones.1",
+  "name": "Hunter-Jones, Nicholas",
+  "first_year": 2015,
+  "top3_avg": 224.0
+ },
+ {
+  "bai": "Davood.Momeni.1",
+  "name": "Momeni, Davood",
+  "first_year": 2005,
+  "top3_avg": 224.0
+ },
+ {
+  "bai": "O.Parrikar.1",
+  "name": "Parrikar, Onkar",
+  "first_year": 2009,
+  "top3_avg": 222.67
+ },
+ {
+  "bai": "Dong.Han.Yeom.1",
+  "name": "Yeom, Dong-han",
+  "first_year": 2008,
+  "top3_avg": 221.67
+ },
+ {
+  "bai": "S.Conforti.Di.Lorenzo.1",
+  "name": "Lorenzo, Salvatore",
+  "first_year": 2009,
+  "top3_avg": 221.67
+ },
+ {
+  "bai": "Y.C.Ong.1",
+  "name": "Ong, Yen Chin",
+  "first_year": 2010,
+  "top3_avg": 221.33
+ },
+ {
+  "bai": "Minyong.Guo.1",
+  "name": "Guo, Minyong",
+  "first_year": 2015,
+  "top3_avg": 220.0
+ },
+ {
+  "bai": "Tokiro.Numasawa.1",
+  "name": "Numasawa, Tokiro",
+  "first_year": 2013,
+  "top3_avg": 218.67
+ },
+ {
+  "bai": "A.Poremba.1",
+  "name": "Poremba, Alexander",
+  "first_year": 2018,
+  "top3_avg": 217.67
+ },
+ {
+  "bai": "M.O.Flynn.1",
+  "name": "Flynn, Michael O.",
+  "first_year": 2014,
+  "top3_avg": 217.0
+ },
+ {
+  "bai": "Pratik.Nandy.1",
+  "name": "Nandy, Pratik",
+  "first_year": 2019,
+  "top3_avg": 215.67
+ },
+ {
+  "bai": "I.Reyes.1",
+  "name": "Reyes Raffo, Ignacio Andr\u00e9s",
+  "first_year": 2014,
+  "top3_avg": 215.67
+ },
+ {
+  "bai": "Yuta.Hamada.1",
+  "name": "Hamada, Yuta",
+  "first_year": 2012,
+  "top3_avg": 215.0
+ },
+ {
+  "bai": "X.Turkeshi.1",
+  "name": "Turkeshi, Xhek",
+  "first_year": 2018,
+  "top3_avg": 215.0
+ },
+ {
+  "bai": "G.Sarosi.1",
+  "name": "S\u00e1rosi, G\u00e1bor",
+  "first_year": 2012,
+  "top3_avg": 213.67
+ },
+ {
+  "bai": "R.Shir.1",
+  "name": "Shir, Ruth",
+  "first_year": 2013,
+  "top3_avg": 212.0
+ },
+ {
+  "bai": "B.Freivogel.1",
+  "name": "Freivogel, Ben",
+  "first_year": 2001,
+  "top3_avg": 211.33
+ },
+ {
+  "bai": "M.S.Tame.1",
+  "name": "Tame, Mark",
+  "first_year": 2003,
+  "top3_avg": 211.0
+ },
+ {
+  "bai": "S.Xu.29",
+  "name": "Xu, Shenglong",
+  "first_year": 2015,
+  "top3_avg": 210.67
+ },
+ {
+  "bai": "Antonia.M.Frassino.1",
+  "name": "Frassino, Antonia Micol",
+  "first_year": 2011,
+  "top3_avg": 209.33
+ },
+ {
+  "bai": "O.Dahlsten.1",
+  "name": "Dahlsten, Oscar",
+  "first_year": 2011,
+  "top3_avg": 208.67
+ },
+ {
+  "bai": "D.Neuenfeld.1",
+  "name": "Neuenfeld, Dominik",
+  "first_year": 2017,
+  "top3_avg": 207.0
+ },
+ {
+  "bai": "P.Zhang.10",
+  "name": "Zhang, Pengfei",
+  "first_year": 2016,
+  "top3_avg": 206.67
+ },
+ {
+  "bai": "Piotr.Sierant.1",
+  "name": "Sierant, Piotr",
+  "first_year": 2013,
+  "top3_avg": 205.67
+ },
+ {
+  "bai": "Sanjit.Shashi.1",
+  "name": "Shashi, Sanjit",
+  "first_year": 2019,
+  "top3_avg": 204.33
+ },
+ {
+  "bai": "Soebur.Razzaque.1",
+  "name": "Razzaque, Soebur",
+  "first_year": 2000,
+  "top3_avg": 203.67
+ },
+ {
+  "bai": "Shao.Jiang.Wang.1",
+  "name": "Wang, Shao-Jiang",
+  "first_year": 2015,
+  "top3_avg": 200.67
+ },
+ {
+  "bai": "Stefano.Bolognesi.1",
+  "name": "Bolognesi, Stefano",
+  "first_year": 2002,
+  "top3_avg": 200.67
+ },
+ {
+  "bai": "R.Auzzi.1",
+  "name": "Auzzi, Roberto",
+  "first_year": 2002,
+  "top3_avg": 198.67
+ },
+ {
+  "bai": "L.Piroli.1",
+  "name": "Piroli, Lorenzo",
+  "first_year": 2014,
+  "top3_avg": 198.33
+ },
+ {
+  "bai": "A.Bouland.1",
+  "name": "Bouland, Adam",
+  "first_year": 2010,
+  "top3_avg": 197.33
+ },
+ {
+  "bai": "Alexandre.Belin.1",
+  "name": "Belin, Alexandre",
+  "first_year": 2013,
+  "top3_avg": 197.0
+ },
+ {
+  "bai": "Z.W.Liu.2",
+  "name": "Liu, Zi-Wen",
+  "first_year": 2016,
+  "top3_avg": 197.0
+ },
+ {
+  "bai": "H.Dykaar.1",
+  "name": "Dykaar, Hannah",
+  "first_year": 2016,
+  "top3_avg": 196.33
+ },
+ {
+  "bai": "A.Puhm.1",
+  "name": "Puhm, Andrea",
+  "first_year": 2008,
+  "top3_avg": 194.67
+ },
+ {
+  "bai": "Shan.Ming.Ruan.1",
+  "name": "Ruan, Shan-Ming",
+  "first_year": 2015,
+  "top3_avg": 192.67
+ },
+ {
+  "bai": "Masahito.Yamazaki.1",
+  "name": "Yamazaki, Masahito",
+  "first_year": 2002,
+  "top3_avg": 191.33
+ },
+ {
+  "bai": "S.Sugishita.1",
+  "name": "Sugishita, Sotaro",
+  "first_year": 2013,
+  "top3_avg": 191.0
+ },
+ {
+  "bai": "M.Oszmaniec.1",
+  "name": "Oszmaniec, Micha\u0142",
+  "first_year": 2012,
+  "top3_avg": 190.67
+ },
+ {
+  "bai": "Sumanta.Chakraborty.1",
+  "name": "Chakraborty, Sumanta",
+  "first_year": 2011,
+  "top3_avg": 190.0
+ },
+ {
+  "bai": "F.Galli.1",
+  "name": "Galli, Federico",
+  "first_year": 2009,
+  "top3_avg": 189.67
+ },
+ {
+  "bai": "A.De.Luca.1",
+  "name": "De Luca, Andrea",
+  "first_year": 2012,
+  "top3_avg": 189.33
+ },
+ {
+  "bai": "Watse.Sybesma.1",
+  "name": "Sybesma, Watse",
+  "first_year": 2015,
+  "top3_avg": 188.33
+ },
+ {
+  "bai": "C.B.M.H.Chirenti.1",
+  "name": "Chirenti, Cecilia",
+  "first_year": 2003,
+  "top3_avg": 186.33
+ },
+ {
+  "bai": "H.Gharibyan.1",
+  "name": "Gharibyan, Hrant",
+  "first_year": 2013,
+  "top3_avg": 185.67
+ },
+ {
+  "bai": "H.Zhu.17",
+  "name": "Zhu, Huangjun",
+  "first_year": 2003,
+  "top3_avg": 185.67
+ },
+ {
+  "bai": "C.T.Asplund.1",
+  "name": "Asplund, Curtis Tor",
+  "first_year": 2004,
+  "top3_avg": 184.33
+ },
+ {
+  "bai": "Samuel.Leutheusser.1",
+  "name": "Leutheusser, Samuel",
+  "first_year": 2016,
+  "top3_avg": 183.67
+ },
+ {
+  "bai": "Antony.J.Speranza.1",
+  "name": "Speranza, Antony J.",
+  "first_year": 2012,
+  "top3_avg": 183.0
+ },
+ {
+  "bai": "Sebastian.Zell.1",
+  "name": "Zell, Sebastian",
+  "first_year": 2017,
+  "top3_avg": 182.0
+ },
+ {
+  "bai": "Ming.Lei.Xiao.1",
+  "name": "Xiao, Minglei",
+  "first_year": 2014,
+  "top3_avg": 181.0
+ },
+ {
+  "bai": "B.D.Chowdhury.1",
+  "name": "Chowdhury, Borun D.",
+  "first_year": 2006,
+  "top3_avg": 180.33
+ },
+ {
+  "bai": "P.W.Claeys.1",
+  "name": "Claeys, Pieter W.",
+  "first_year": 2014,
+  "top3_avg": 179.67
+ },
+ {
+  "bai": "J.Haferkamp.1",
+  "name": "Haferkamp, Jonas",
+  "first_year": 2018,
+  "top3_avg": 178.0
+ },
+ {
+  "bai": "F.Buscemi.2",
+  "name": "Buscemi, Francesco",
+  "first_year": 2003,
+  "top3_avg": 175.67
+ },
+ {
+  "bai": "Daniel.Carney.1",
+  "name": "Carney, Daniel Joseph",
+  "first_year": 2011,
+  "top3_avg": 175.33
+ },
+ {
+  "bai": "Sara.Murciano.1",
+  "name": "Murciano, Sara",
+  "first_year": 2018,
+  "top3_avg": 175.33
+ },
+ {
+  "bai": "P.Faist.1",
+  "name": "Faist, Philippe",
+  "first_year": 2013,
+  "top3_avg": 175.0
+ },
+ {
+  "bai": "F.Ares.1",
+  "name": "Ares, Filiberto",
+  "first_year": 2014,
+  "top3_avg": 174.0
+ },
+ {
+  "bai": "Ning.Bao.1",
+  "name": "Bao, Ning",
+  "first_year": 2011,
+  "top3_avg": 173.67
+ },
+ {
+  "bai": "R.A.Low.1",
+  "name": "Low, Richard Andrew",
+  "first_year": 2009,
+  "top3_avg": 173.33
+ },
+ {
+  "bai": "X.Chen.153",
+  "name": "Chen, Xiao-Xiao",
+  "first_year": 2003,
+  "top3_avg": 173.33
+ },
+ {
+  "bai": "Henry.W.Lin.1",
+  "name": "Lin, Henry W.",
+  "first_year": 2015,
+  "top3_avg": 170.67
+ },
+ {
+  "bai": "A.R.Frey.1",
+  "name": "Frey, Andrew R.",
+  "first_year": 2000,
+  "top3_avg": 170.67
+ },
+ {
+  "bai": "P.Ribeiro.1",
+  "name": "Ribeiro, Pedro",
+  "first_year": 2004,
+  "top3_avg": 168.67
+ },
+ {
+  "bai": "Hong.Bao.Zhang.1",
+  "name": "Zhang, Hongbao",
+  "first_year": 2003,
+  "top3_avg": 167.67
+ },
+ {
+  "bai": "Shao.Jun.Zhang.1",
+  "name": "Zhang, Shao-Jun",
+  "first_year": 2010,
+  "top3_avg": 167.67
+ },
+ {
+  "bai": "Josiah.D.Couch.1",
+  "name": "Couch, Josiah D.",
+  "first_year": 2016,
+  "top3_avg": 166.33
+ },
+ {
+  "bai": "F.M.Haehl.1",
+  "name": "Haehl, Felix M.",
+  "first_year": 2012,
+  "top3_avg": 165.67
+ },
+ {
+  "bai": "N.J.Schuch.1",
+  "name": "Schuch, Norbert",
+  "first_year": 2003,
+  "top3_avg": 162.67
+ },
+ {
+  "bai": "J.Hernandez.10",
+  "name": "Hernandez, Juan",
+  "first_year": 2017,
+  "top3_avg": 162.33
+ },
+ {
+  "bai": "Ashish.Shukla.1",
+  "name": "Shukla, Ashish",
+  "first_year": 2009,
+  "top3_avg": 162.0
+ },
+ {
+  "bai": "S.Roy.55",
+  "name": "Roy, Sthitadhi",
+  "first_year": 2013,
+  "top3_avg": 161.0
+ },
+ {
+  "bai": "N.Y.Halpern.1",
+  "name": "Halpern, Nicole Yunger",
+  "first_year": 2012,
+  "top3_avg": 160.67
+ },
+ {
+  "bai": "J.Helsen.1",
+  "name": "Helsen, Jonas",
+  "first_year": 2016,
+  "top3_avg": 159.33
+ },
+ {
+  "bai": "J.Varela.3",
+  "name": "Varela, Jaime",
+  "first_year": 2011,
+  "top3_avg": 159.0
+ },
+ {
+  "bai": "M.K.Zangeneh.1",
+  "name": "Kord Zangeneh, Mahdi",
+  "first_year": 2011,
+  "top3_avg": 157.33
+ },
+ {
+  "bai": "D.J.Williamson.2",
+  "name": "Williamson, Dominic Joseph",
+  "first_year": 2011,
+  "top3_avg": 156.67
+ },
+ {
+  "bai": "S.K.Jian.1",
+  "name": "Jian, Shao-Kai",
+  "first_year": 2014,
+  "top3_avg": 155.0
+ },
+ {
+  "bai": "Chris.Akers.1",
+  "name": "Akers, Chris",
+  "first_year": 2015,
+  "top3_avg": 154.33
+ },
+ {
+  "bai": "Chun.Jun.Cao.1",
+  "name": "Cao, ChunJun",
+  "first_year": 2013,
+  "top3_avg": 152.67
+ },
+ {
+  "bai": "K.Bu.1",
+  "name": "Bu, Kaifeng",
+  "first_year": 2014,
+  "top3_avg": 152.67
+ },
+ {
+  "bai": "D.S.M.Alves.1",
+  "name": "Alves, Daniele S.M.",
+  "first_year": 2004,
+  "top3_avg": 152.0
+ },
+ {
+  "bai": "F.Liu.10",
+  "name": "Liu, Fangli",
+  "first_year": 2010,
+  "top3_avg": 152.0
+ },
+ {
+  "bai": "Chao.Niu.1",
+  "name": "Niu, Chao",
+  "first_year": 2011,
+  "top3_avg": 149.33
+ },
+ {
+  "bai": "S.S.Haque.1",
+  "name": "Haque, S. Shajidul",
+  "first_year": 2007,
+  "top3_avg": 149.0
+ },
+ {
+  "bai": "Zhuo.Yu.Xian.1",
+  "name": "Xian, Zhuo-Yu",
+  "first_year": 2013,
+  "top3_avg": 149.0
+ },
+ {
+  "bai": "A.Mollabashi.1",
+  "name": "Mollabashi, Ali",
+  "first_year": 2012,
+  "top3_avg": 149.0
+ },
+ {
+  "bai": "R.H.Peng.1",
+  "name": "Peng, Rong-Hui",
+  "first_year": 2016,
+  "top3_avg": 148.0
+ },
+ {
+  "bai": "Jason.Pollack.1",
+  "name": "Pollack, Jason Aaron",
+  "first_year": 2012,
+  "top3_avg": 147.67
+ },
+ {
+  "bai": "Ran.Li.1",
+  "name": "Li, Ran",
+  "first_year": 2006,
+  "top3_avg": 147.0
+ },
+ {
+  "bai": "B.Pourhassan.1",
+  "name": "Pourhassan, Behnam",
+  "first_year": 2007,
+  "top3_avg": 146.0
+ },
+ {
+  "bai": "J.F.Pedraza.1",
+  "name": "Pedraza, Juan F.",
+  "first_year": 2008,
+  "top3_avg": 145.67
+ },
+ {
+  "bai": "J.Maltz.1",
+  "name": "Maltz, Jonathan",
+  "first_year": 2011,
+  "top3_avg": 145.33
+ },
+ {
+  "bai": "P.Braccia.1",
+  "name": "Braccia, Paolo",
+  "first_year": 2019,
+  "top3_avg": 145.0
+ },
+ {
+  "bai": "Diego.Garcia-Martin.1",
+  "name": "Garc\u00eda-Mart\u00edn, Diego",
+  "first_year": 2018,
+  "top3_avg": 144.67
+ },
+ {
+  "bai": "Arpan.Bhattacharyya.1",
+  "name": "Bhattacharyya, Arpan",
+  "first_year": 2012,
+  "top3_avg": 144.67
+ },
+ {
+  "bai": "K.Xu.2",
+  "name": "Xu, Kai",
+  "first_year": 2002,
+  "top3_avg": 144.33
+ },
+ {
+  "bai": "Song.He.1",
+  "name": "He, Song",
+  "first_year": 2007,
+  "top3_avg": 144.0
+ },
+ {
+  "bai": "M.Faizal.1",
+  "name": "Faizal, Mir",
+  "first_year": 2006,
+  "top3_avg": 144.0
+ },
+ {
+  "bai": "Alexey.Milekhin.1",
+  "name": "Milekhin, Alexey",
+  "first_year": 2012,
+  "top3_avg": 143.33
+ },
+ {
+  "bai": "A.Anshu.1",
+  "name": "Anshu, Anurag",
+  "first_year": 2012,
+  "top3_avg": 142.67
+ },
+ {
+  "bai": "Shao.Feng.Wu.1",
+  "name": "Wu, Shao-Feng",
+  "first_year": 2006,
+  "top3_avg": 142.67
+ },
+ {
+  "bai": "M.Decross.1",
+  "name": "Decross, Matthew P.",
+  "first_year": 2015,
+  "top3_avg": 142.33
+ },
+ {
+  "bai": "S.Yunoki.1",
+  "name": "Yunoki, Seiji",
+  "first_year": 2005,
+  "top3_avg": 142.0
+ },
+ {
+  "bai": "Kotaro.Tamaoka.1",
+  "name": "Tamaoka, Kotaro",
+  "first_year": 2016,
+  "top3_avg": 141.33
+ },
+ {
+  "bai": "Aranya.Bhattacharya.1",
+  "name": "Bhattacharya, Aranya",
+  "first_year": 2017,
+  "top3_avg": 141.33
+ },
+ {
+  "bai": "J.Q.Wu.4",
+  "name": "Wu, Jie-qiang",
+  "first_year": 2014,
+  "top3_avg": 141.0
+ },
+ {
+  "bai": "J.Kudler.Flam.1",
+  "name": "Kudler-Flam, Jonah",
+  "first_year": 2017,
+  "top3_avg": 140.67
+ },
+ {
+  "bai": "Yiming.Chen.1",
+  "name": "Chen, Yiming",
+  "first_year": 2017,
+  "top3_avg": 140.0
+ },
+ {
+  "bai": "Y.Quek.1",
+  "name": "Quek, Yihui",
+  "first_year": 2017,
+  "top3_avg": 139.67
+ },
+ {
+  "bai": "A.Kar.1",
+  "name": "Kar, Arjun",
+  "first_year": 2014,
+  "top3_avg": 138.33
+ },
+ {
+  "bai": "Bin.Yan.2",
+  "name": "Yan, Bin",
+  "first_year": 2017,
+  "top3_avg": 137.67
+ },
+ {
+  "bai": "L.Borsten.1",
+  "name": "Borsten, Leron",
+  "first_year": 2008,
+  "top3_avg": 137.0
+ },
+ {
+  "bai": "Dimitrios.Giataganas.1",
+  "name": "Giataganas, D.",
+  "first_year": 2007,
+  "top3_avg": 136.33
+ },
+ {
+  "bai": "Arnab.Kundu.1",
+  "name": "Kundu, Arnab",
+  "first_year": 2006,
+  "top3_avg": 136.0
+ },
+ {
+  "bai": "Jungqi.Yoon.1",
+  "name": "Yoon, Junggi",
+  "first_year": 2013,
+  "top3_avg": 135.67
+ },
+ {
+  "bai": "J.Mielczarek.1",
+  "name": "Mielczarek, Jakub",
+  "first_year": 2005,
+  "top3_avg": 135.67
+ },
+ {
+  "bai": "U.Agrawal.1",
+  "name": "Agrawal, Utkarsh",
+  "first_year": 2019,
+  "top3_avg": 134.67
+ },
+ {
+  "bai": "Ding.Fang.Zeng.1",
+  "name": "Zeng, Ding-Fang",
+  "first_year": 2002,
+  "top3_avg": 134.67
+ },
+ {
+  "bai": "W.Chemissany.1",
+  "name": "Chemissany, Wissam",
+  "first_year": 2004,
+  "top3_avg": 134.67
+ },
+ {
+  "bai": "Pallab.Basu.1",
+  "name": "Basu, Pallab",
+  "first_year": 2005,
+  "top3_avg": 133.0
+ },
+ {
+  "bai": "Sayantan.Choudhury.1",
+  "name": "Choudhury, Sayantan",
+  "first_year": 2011,
+  "top3_avg": 132.67
+ },
+ {
+  "bai": "Xian.Hui.Ge.1",
+  "name": "Ge, Xian-Hui",
+  "first_year": 2002,
+  "top3_avg": 132.0
+ },
+ {
+  "bai": "V.Madhok.1",
+  "name": "Madhok, Vaibhav",
+  "first_year": 2008,
+  "top3_avg": 131.33
+ },
+ {
+  "bai": "J.Marino.1",
+  "name": "Marino, Jamir",
+  "first_year": 2009,
+  "top3_avg": 130.67
+ },
+ {
+  "bai": "A.Chenu.2",
+  "name": "Chenu, Aur\u00e9lia",
+  "first_year": 2012,
+  "top3_avg": 130.67
+ },
+ {
+  "bai": "Xue.Da.Wen.1",
+  "name": "Wen, Xueda",
+  "first_year": 2008,
+  "top3_avg": 130.0
+ },
+ {
+  "bai": "B.Underwood.1",
+  "name": "Underwood, Bret",
+  "first_year": 2005,
+  "top3_avg": 129.67
+ },
+ {
+  "bai": "Christopher.Waddell.1",
+  "name": "Waddell, Chris",
+  "first_year": 2018,
+  "top3_avg": 129.33
+ },
+ {
+  "bai": "N.Anand.2",
+  "name": "Anand, Namit",
+  "first_year": 2015,
+  "top3_avg": 129.33
+ },
+ {
+  "bai": "David.K.Kolchmeyer.1",
+  "name": "Kolchmeyer, David Klein",
+  "first_year": 2013,
+  "top3_avg": 129.0
+ },
+ {
+  "bai": "N.Moynihan.1",
+  "name": "Moynihan, Nathan",
+  "first_year": 2017,
+  "top3_avg": 129.0
+ },
+ {
+  "bai": "F.Neukart.1",
+  "name": "Neukart, Florian",
+  "first_year": 2017,
+  "top3_avg": 128.0
+ },
+ {
+  "bai": "Hai.Shan.Liu.1",
+  "name": "Liu, Hai-Shan",
+  "first_year": 2009,
+  "top3_avg": 127.33
+ },
+ {
+  "bai": "Jie.Ren.2",
+  "name": "Ren, Jie",
+  "first_year": 2005,
+  "top3_avg": 127.0
+ },
+ {
+  "bai": "K.Funo.1",
+  "name": "Funo, Ken",
+  "first_year": 2013,
+  "top3_avg": 126.0
+ },
+ {
+  "bai": "Yu.Tian.1",
+  "name": "Tian, Yu",
+  "first_year": 2002,
+  "top3_avg": 126.0
+ },
+ {
+  "bai": "Yue.Zhou.Li.1",
+  "name": "Li, Yue-Zhou",
+  "first_year": 2017,
+  "top3_avg": 124.67
+ },
+ {
+  "bai": "Hai.Tang.Yang.1",
+  "name": "Yang, Haitang",
+  "first_year": 2001,
+  "top3_avg": 124.67
+ },
+ {
+  "bai": "Keun.Young.Kim.1",
+  "name": "Kim, Keun-Young",
+  "first_year": 2000,
+  "top3_avg": 124.33
+ },
+ {
+  "bai": "Xiao.Mei.Kuang.1",
+  "name": "Kuang, Xiao-Mei",
+  "first_year": 2009,
+  "top3_avg": 124.0
+ },
+ {
+  "bai": "O.C.O.Dahlsten.1",
+  "name": "Dahlsten, Oscar C.O.",
+  "first_year": 2006,
+  "top3_avg": 122.67
+ },
+ {
+  "bai": "Xing.Hui.Feng.1",
+  "name": "Feng, Xing-Hui",
+  "first_year": 2013,
+  "top3_avg": 122.33
+ },
+ {
+  "bai": "Yasser.Omar.1",
+  "name": "Omar, Yasser",
+  "first_year": 2001,
+  "top3_avg": 121.33
+ },
+ {
+  "bai": "K.Agarwal.2",
+  "name": "Agarwal, Kartiek",
+  "first_year": 2015,
+  "top3_avg": 121.0
+ },
+ {
+  "bai": "Cheng.Yong.Zhang.1",
+  "name": "Zhang, Cheng-Yong",
+  "first_year": 2012,
+  "top3_avg": 119.33
+ },
+ {
+  "bai": "K.Klobas.1",
+  "name": "Klobas, Katja",
+  "first_year": 2017,
+  "top3_avg": 118.67
+ },
+ {
+  "bai": "Fu.Wen.Shu.1",
+  "name": "Shu, Fu-Wen",
+  "first_year": 2004,
+  "top3_avg": 118.0
+ },
+ {
+  "bai": "Subhashish.Banerjee.1",
+  "name": "Banerjee, Subhashish",
+  "first_year": 2004,
+  "top3_avg": 117.33
+ },
+ {
+  "bai": "J.T.Iosue.1",
+  "name": "Iosue, Joseph T.",
+  "first_year": 2018,
+  "top3_avg": 116.67
+ },
+ {
+  "bai": "A.Naseh.1",
+  "name": "Naseh, Ali",
+  "first_year": 2009,
+  "top3_avg": 115.67
+ },
+ {
+  "bai": "Jian.Pin.Wu.1",
+  "name": "Wu, Jian-Pin",
+  "first_year": 2008,
+  "top3_avg": 115.67
+ },
+ {
+  "bai": "Ibrahim.Akal.1",
+  "name": "Akal, Ibrahim",
+  "first_year": 2014,
+  "top3_avg": 115.33
+ },
+ {
+  "bai": "S.Gangopadhyay.1",
+  "name": "Gangopadhyay, Sunandan",
+  "first_year": 2003,
+  "top3_avg": 115.0
+ },
+ {
+  "bai": "Ying.Ying.Li.2",
+  "name": "Li, Ying-Ying",
+  "first_year": 2013,
+  "top3_avg": 115.0
+ },
+ {
+  "bai": "A.F.Astaneh.1",
+  "name": "Faraji Astaneh, Amin",
+  "first_year": 2013,
+  "top3_avg": 114.67
+ },
+ {
+  "bai": "S.A.Hosseini.Mansoori.1",
+  "name": "Hosseini Mansoori, Seyed Ali",
+  "first_year": 2013,
+  "top3_avg": 112.33
+ },
+ {
+  "bai": "T.Wang.3",
+  "name": "Wang, Towe",
+  "first_year": 2006,
+  "top3_avg": 112.0
+ },
+ {
+  "bai": "F.Barratt.1",
+  "name": "Barratt, Fergus",
+  "first_year": 2018,
+  "top3_avg": 110.33
+ },
+ {
+  "bai": "Tibra.Ali.1",
+  "name": "Ali, Tibra",
+  "first_year": 2001,
+  "top3_avg": 110.33
+ },
+ {
+  "bai": "E.H.Kim.3",
+  "name": "Kim, Eugene H.",
+  "first_year": 2018,
+  "top3_avg": 110.33
+ },
+ {
+  "bai": "I.S.Yang.1",
+  "name": "Yang, I-Sheng",
+  "first_year": 2006,
+  "top3_avg": 110.0
+ },
+ {
+  "bai": "Antonino.Marciano.1",
+  "name": "Marciano, Antonino",
+  "first_year": 2004,
+  "top3_avg": 110.0
+ },
+ {
+  "bai": "H.A.Camargo.1",
+  "name": "Montero, Hugo Antonio Camargo",
+  "first_year": 2014,
+  "top3_avg": 109.67
+ },
+ {
+  "bai": "F.Caravelli.1",
+  "name": "Caravelli, Francesco",
+  "first_year": 2009,
+  "top3_avg": 109.33
+ },
+ {
+  "bai": "K.Fransen.1",
+  "name": "Fransen, Kwinten",
+  "first_year": 2017,
+  "top3_avg": 109.0
+ },
+ {
+  "bai": "J.Y.Zhao.33",
+  "name": "Zhao, Yu-Jun",
+  "first_year": 2008,
+  "top3_avg": 109.0
+ },
+ {
+  "bai": "Martin.Sasieta.1",
+  "name": "Sasieta, Martin",
+  "first_year": 2019,
+  "top3_avg": 108.67
+ },
+ {
+  "bai": "C.Hirche.1",
+  "name": "Hirche, Christoph",
+  "first_year": 2014,
+  "top3_avg": 108.0
+ },
+ {
+  "bai": "Cesar.A.Agon.1",
+  "name": "Ag\u00f3n, Cesar A.",
+  "first_year": 2011,
+  "top3_avg": 108.0
+ },
+ {
+  "bai": "Zhong.Zhu.Liu.1",
+  "name": "Liu, Zeyu",
+  "first_year": 2004,
+  "top3_avg": 107.67
+ },
+ {
+  "bai": "Yuta.Kikuchi.1",
+  "name": "Kikuchi, Yuta",
+  "first_year": 2013,
+  "top3_avg": 107.0
+ },
+ {
+  "bai": "S.Vardhan.1",
+  "name": "Vardhan, Shreya",
+  "first_year": 2019,
+  "top3_avg": 105.33
+ },
+ {
+  "bai": "Yi.Yang.3",
+  "name": "Yang, Yi",
+  "first_year": 2001,
+  "top3_avg": 103.67
+ },
+ {
+  "bai": "C.Northe.1",
+  "name": "Northe, Christian",
+  "first_year": 2017,
+  "top3_avg": 103.33
+ },
+ {
+  "bai": "Andrew.Rolph.1",
+  "name": "Rolph, Andrew",
+  "first_year": 2014,
+  "top3_avg": 103.33
+ },
+ {
+  "bai": "Q.Wang.18",
+  "name": "Wang, Qingwen",
+  "first_year": 2017,
+  "top3_avg": 103.0
+ },
+ {
+  "bai": "Jing.Wang.2",
+  "name": "Wang, Jin",
+  "first_year": 2008,
+  "top3_avg": 102.67
+ },
+ {
+  "bai": "B.Kobrin.1",
+  "name": "Kobrin, Bryce",
+  "first_year": 2018,
+  "top3_avg": 101.33
+ },
+ {
+  "bai": "G.Di.Giulio.1",
+  "name": "Di Giulio, Giuseppe",
+  "first_year": 2019,
+  "top3_avg": 101.33
+ },
+ {
+  "bai": "J.Molina.Vilaplana.1",
+  "name": "Molina-Vilaplana, J.",
+  "first_year": 2008,
+  "top3_avg": 100.33
+ },
+ {
+  "bai": "Kanato.Goto.1",
+  "name": "Goto, Kanato",
+  "first_year": 2016,
+  "top3_avg": 100.0
+ },
+ {
+  "bai": "V.Scopelliti.1",
+  "name": "Scopelliti, V.",
+  "first_year": 2015,
+  "top3_avg": 100.0
+ },
+ {
+  "bai": "J.Salzer.1",
+  "name": "Salzer, Jakob",
+  "first_year": 2014,
+  "top3_avg": 99.67
+ },
+ {
+  "bai": "E.Iyoda.1",
+  "name": "Iyoda, Eiki",
+  "first_year": 2012,
+  "top3_avg": 99.33
+ },
+ {
+  "bai": "C.Sunderhauf.1",
+  "name": "S\u00fcnderhauf, Christoph",
+  "first_year": 2017,
+  "top3_avg": 99.33
+ },
+ {
+  "bai": "A.Ehrenberg.1",
+  "name": "Ehrenberg, Adam",
+  "first_year": 2019,
+  "top3_avg": 99.0
+ },
+ {
+  "bai": "A.Deshpande.11",
+  "name": "Deshpande, Abhinav",
+  "first_year": 2013,
+  "top3_avg": 98.33
+ },
+ {
+  "bai": "L.Queimada.1",
+  "name": "Queimada, Leonel",
+  "first_year": 2015,
+  "top3_avg": 98.0
+ },
+ {
+  "bai": "A.Addazi.1",
+  "name": "Addazi, Andrea",
+  "first_year": 2014,
+  "top3_avg": 97.67
+ },
+ {
+  "bai": "Z.Weinstein.1",
+  "name": "Weinstein, Zack",
+  "first_year": 2018,
+  "top3_avg": 96.67
+ },
+ {
+  "bai": "Si.Nong.Liu.1",
+  "name": "Liu, Sinong",
+  "first_year": 2015,
+  "top3_avg": 96.33
+ },
+ {
+  "bai": "J.D.Urbina.1",
+  "name": "Urbina, Juan Diego",
+  "first_year": 2003,
+  "top3_avg": 96.0
+ },
+ {
+  "bai": "Jingbo.B.Wang.1",
+  "name": "Wang, Jingbo B.",
+  "first_year": 2006,
+  "top3_avg": 96.0
+ },
+ {
+  "bai": "Max.Mcginley.1",
+  "name": "McGinley, Max",
+  "first_year": 2017,
+  "top3_avg": 96.0
+ },
+ {
+  "bai": "M.R.Mohammadi.Mozaffar.1",
+  "name": "Mohammadi Mozaffar, M. Reza",
+  "first_year": 2011,
+  "top3_avg": 95.67
+ },
+ {
+  "bai": "Marco.Michel.1",
+  "name": "Michel, Marco",
+  "first_year": 2018,
+  "top3_avg": 95.0
+ },
+ {
+  "bai": "C.Xu.6",
+  "name": "Xu, Chen",
+  "first_year": 2002,
+  "top3_avg": 94.67
+ },
+ {
+  "bai": "K.Babaei.Velni.1",
+  "name": "Babaei Velni, Komeil",
+  "first_year": 2012,
+  "top3_avg": 94.67
+ },
+ {
+  "bai": "Walter.Tangarife.Garcia.1",
+  "name": "Tangarife, Walter",
+  "first_year": 2010,
+  "top3_avg": 94.33
+ },
+ {
+  "bai": "T.Metger.1",
+  "name": "Metger, Tony",
+  "first_year": 2019,
+  "top3_avg": 94.0
+ },
+ {
+  "bai": "Ming.Zhang.2",
+  "name": "Zhang, Ming",
+  "first_year": 2016,
+  "top3_avg": 94.0
+ },
+ {
+  "bai": "C.Zukowski.1",
+  "name": "Zukowski, Claire",
+  "first_year": 2011,
+  "top3_avg": 93.33
+ },
+ {
+  "bai": "Sang.Heon.Yi.1",
+  "name": "Yi, Sang-Heon",
+  "first_year": 2000,
+  "top3_avg": 93.0
+ },
+ {
+  "bai": "A.Pritzel.1",
+  "name": "Pritzel, Alexander",
+  "first_year": 2011,
+  "top3_avg": 93.0
+ },
+ {
+  "bai": "S.G.Avery.1",
+  "name": "Avery, Steven Guy",
+  "first_year": 2007,
+  "top3_avg": 91.67
+ },
+ {
+  "bai": "Hyun.Sik.Jeong.1",
+  "name": "Jeong, Hyun-Sik",
+  "first_year": 2017,
+  "top3_avg": 91.67
+ },
+ {
+  "bai": "Shang.Liu.1",
+  "name": "Liu, Shang",
+  "first_year": 2014,
+  "top3_avg": 91.67
+ },
+ {
+  "bai": "Johannes.Knaute.1",
+  "name": "Knaute, Johannes",
+  "first_year": 2015,
+  "top3_avg": 91.67
+ },
+ {
+  "bai": "X.Han.1",
+  "name": "Han, Xizhi",
+  "first_year": 2015,
+  "top3_avg": 91.33
+ },
+ {
+  "bai": "Souvik.Banerjee.1",
+  "name": "Banerjee, Souvik",
+  "first_year": 2010,
+  "top3_avg": 91.0
+ },
+ {
+  "bai": "Stefano.Baiguera.1",
+  "name": "Baiguera, Stefano",
+  "first_year": 2015,
+  "top3_avg": 90.67
+ },
+ {
+  "bai": "D.Melnikov.1",
+  "name": "Melnikov, Dmitry",
+  "first_year": 2002,
+  "top3_avg": 90.67
+ },
+ {
+  "bai": "Nico.Wintergerst.1",
+  "name": "Wintergerst, Nico",
+  "first_year": 2009,
+  "top3_avg": 90.67
+ },
+ {
+  "bai": "D.M.Yekta.1",
+  "name": "Yekta, Davood Mahdavian",
+  "first_year": 2010,
+  "top3_avg": 90.67
+ },
+ {
+  "bai": "J.Kirklin.1",
+  "name": "Kirklin, Joshua",
+  "first_year": 2018,
+  "top3_avg": 90.0
+ },
+ {
+  "bai": "S.R.Roy.1",
+  "name": "Roy, Shubho R.",
+  "first_year": 2008,
+  "top3_avg": 90.0
+ },
+ {
+  "bai": "Kyoung.Bum.Huh.1",
+  "name": "Huh, Kyoung-Bum",
+  "first_year": 2018,
+  "top3_avg": 89.67
+ },
+ {
+  "bai": "S.Y.Liu.2",
+  "name": "Liu, Si-Yuan",
+  "first_year": 2012,
+  "top3_avg": 89.0
+ },
+ {
+  "bai": "Yoshiki.Sato.1",
+  "name": "Sato, Yoshiki",
+  "first_year": 2013,
+  "top3_avg": 89.0
+ },
+ {
+  "bai": "A.Svesko.1",
+  "name": "Svesko, Andrew",
+  "first_year": 2015,
+  "top3_avg": 88.0
+ },
+ {
+  "bai": "Peng.Cheng.3",
+  "name": "Cheng, Peng",
+  "first_year": 2015,
+  "top3_avg": 87.67
+ },
+ {
+  "bai": "Viktor.Jahnke.1",
+  "name": "Jahnke, Viktor",
+  "first_year": 2013,
+  "top3_avg": 87.33
+ },
+ {
+  "bai": "Z.Wang.63",
+  "name": "Wang, Zhencheng",
+  "first_year": 2018,
+  "top3_avg": 85.67
+ },
+ {
+  "bai": "Y.S.An.1",
+  "name": "An, Yu-Sen",
+  "first_year": 2018,
+  "top3_avg": 85.33
+ },
+ {
+  "bai": "Mitsuhiro.Nishida.1",
+  "name": "Nishida, Mitsuhiro",
+  "first_year": 2014,
+  "top3_avg": 85.33
+ },
+ {
+  "bai": "S.Liu.30",
+  "name": "Liu, Shuo",
+  "first_year": 2013,
+  "top3_avg": 85.33
+ },
+ {
+  "bai": "S.V.Eccles.1",
+  "name": "Eccles, Stefan",
+  "first_year": 2015,
+  "top3_avg": 84.67
+ },
+ {
+  "bai": "Bin.Wang.4",
+  "name": "Wang, Bin",
+  "first_year": 2007,
+  "top3_avg": 84.67
+ },
+ {
+  "bai": "H.Kim.32",
+  "name": "Kim, Hyungrok",
+  "first_year": 2015,
+  "top3_avg": 84.67
+ },
+ {
+  "bai": "Hossein.Babaei.Aghbolagh.1",
+  "name": "Babaei-Aghbolagh, H.",
+  "first_year": 2013,
+  "top3_avg": 84.33
+ },
+ {
+  "bai": "Debajyoti.Sarkar.1",
+  "name": "Sarkar, Debajyoti",
+  "first_year": 2012,
+  "top3_avg": 84.0
+ },
+ {
+  "bai": "K.Kato.10",
+  "name": "Kato, Kohtaro",
+  "first_year": 2013,
+  "top3_avg": 83.67
+ },
+ {
+  "bai": "Xuanhua.Wang.1",
+  "name": "Wang, Xuanhua",
+  "first_year": 2019,
+  "top3_avg": 83.33
+ },
+ {
+  "bai": "P.Zhang.16",
+  "name": "Zhang, Pengfei",
+  "first_year": 2010,
+  "top3_avg": 83.33
+ },
+ {
+  "bai": "R.Abt.1",
+  "name": "Abt, Raimond",
+  "first_year": 2017,
+  "top3_avg": 82.33
+ },
+ {
+  "bai": "Dawei.Ding.1",
+  "name": "Ding, Dawei",
+  "first_year": 2015,
+  "top3_avg": 81.33
+ },
+ {
+  "bai": "B.Beri.2",
+  "name": "B\u00e9ri, Benjamin",
+  "first_year": 2009,
+  "top3_avg": 81.0
+ },
+ {
+  "bai": "M.Zantedeschi.1",
+  "name": "Zantedeschi, Michael",
+  "first_year": 2019,
+  "top3_avg": 80.0
+ },
+ {
+  "bai": "L.Innocenti.1",
+  "name": "Innocenti, Luca",
+  "first_year": 2015,
+  "top3_avg": 79.67
+ },
+ {
+  "bai": "L.Schneiderbauer.1",
+  "name": "Schneiderbauer, Lukas",
+  "first_year": 2016,
+  "top3_avg": 79.67
+ },
+ {
+  "bai": "Peng.Zhang.4",
+  "name": "Zhang, Peng",
+  "first_year": 2001,
+  "top3_avg": 79.33
+ },
+ {
+  "bai": "T.Hashizume.1",
+  "name": "Hashizume, Tomohiro",
+  "first_year": 2018,
+  "top3_avg": 78.67
+ },
+ {
+  "bai": "Aidan.Chatwin.Davies.1",
+  "name": "Chatwin-Davies, Aidan",
+  "first_year": 2012,
+  "top3_avg": 77.67
+ },
+ {
+  "bai": "M.Gerbershagen.1",
+  "name": "Gerbershagen, Marius",
+  "first_year": 2018,
+  "top3_avg": 77.67
+ },
+ {
+  "bai": "Jin.Wang.2",
+  "name": "Wang, Jin",
+  "first_year": 2015,
+  "top3_avg": 77.33
+ },
+ {
+  "bai": "M.S.Seo.1",
+  "name": "Seo, Min-Seok",
+  "first_year": 2010,
+  "top3_avg": 77.33
+ },
+ {
+  "bai": "Saskia.Demulder.1",
+  "name": "Demulder, Saskia",
+  "first_year": 2015,
+  "top3_avg": 77.33
+ },
+ {
+  "bai": "M.R.R.Good.1",
+  "name": "Good, Michael R. R.",
+  "first_year": 2008,
+  "top3_avg": 77.0
+ },
+ {
+  "bai": "S.Antonini.1",
+  "name": "Antonini, Stefano",
+  "first_year": 2018,
+  "top3_avg": 77.0
+ },
+ {
+  "bai": "Massimiliano.Rota.1",
+  "name": "Rota, Massimiliano",
+  "first_year": 2014,
+  "top3_avg": 77.0
+ },
+ {
+  "bai": "M.Flory.1",
+  "name": "Flory, Mario",
+  "first_year": 2012,
+  "top3_avg": 76.67
+ },
+ {
+  "bai": "Jie.Jiang.1",
+  "name": "Jiang, Jie",
+  "first_year": 2018,
+  "top3_avg": 75.67
+ },
+ {
+  "bai": "Kazuki.Ikeda.1",
+  "name": "Ikeda, Kazuki",
+  "first_year": 2017,
+  "top3_avg": 75.33
+ },
+ {
+  "bai": "Tomoki.Nosaka.1",
+  "name": "Nosaka, Tomoki",
+  "first_year": 2012,
+  "top3_avg": 75.33
+ },
+ {
+  "bai": "Y.Kuno.2",
+  "name": "Kuno, Yoshihito",
+  "first_year": 2012,
+  "top3_avg": 75.33
+ },
+ {
+  "bai": "Amit.Vikram.1",
+  "name": "Vikram, Amit",
+  "first_year": 2018,
+  "top3_avg": 74.33
+ },
+ {
+  "bai": "T.Hayata.1",
+  "name": "Hayata, Tomoya",
+  "first_year": 2010,
+  "top3_avg": 74.33
+ },
+ {
+  "bai": "Su.Ting.Zhao.1",
+  "name": "Zhao, Suting",
+  "first_year": 2017,
+  "top3_avg": 74.33
+ },
+ {
+  "bai": "A.K.Patra.2",
+  "name": "Patra, Ayan K.",
+  "first_year": 2019,
+  "top3_avg": 74.33
+ },
+ {
+  "bai": "Ayan.Mukhopadhyay.1",
+  "name": "Mukhopadhyay, Ayan",
+  "first_year": 2006,
+  "top3_avg": 74.0
+ },
+ {
+  "bai": "M.Moosa.1",
+  "name": "Moosa, Mudassir",
+  "first_year": 2015,
+  "top3_avg": 74.0
+ },
+ {
+  "bai": "D.Cilluffo.1",
+  "name": "Cilluffo, Dario",
+  "first_year": 2019,
+  "top3_avg": 73.67
+ },
+ {
+  "bai": "S.F.Lokhande.1",
+  "name": "Lokhande, Sagar F.",
+  "first_year": 2015,
+  "top3_avg": 73.0
+ },
+ {
+  "bai": "Peng.Liu.1",
+  "name": "Liu, Peng",
+  "first_year": 2014,
+  "top3_avg": 72.67
+ },
+ {
+  "bai": "Vinay.Malvimat.1",
+  "name": "Malvimat, Vinay",
+  "first_year": 2013,
+  "top3_avg": 72.33
+ },
+ {
+  "bai": "Adam.R.Levine.1",
+  "name": "Levine, Adam",
+  "first_year": 2015,
+  "top3_avg": 72.0
+ },
+ {
+  "bai": "Alex.Cole.1",
+  "name": "Cole, Alex",
+  "first_year": 2015,
+  "top3_avg": 71.67
+ },
+ {
+  "bai": "Y.Zhou.5",
+  "name": "Zhou, Yehao",
+  "first_year": 2015,
+  "top3_avg": 71.67
+ },
+ {
+  "bai": "Zhenyu.Xu.1",
+  "name": "Xu, Zhenyu",
+  "first_year": 2018,
+  "top3_avg": 71.67
+ },
+ {
+  "bai": "Zicao.Fu.1",
+  "name": "Fu, Zicao",
+  "first_year": 2015,
+  "top3_avg": 71.67
+ },
+ {
+  "bai": "P.Simidzija.1",
+  "name": "Simidzija, Petar",
+  "first_year": 2016,
+  "top3_avg": 71.33
+ },
+ {
+  "bai": "R.R.Poojary.1",
+  "name": "Poojary, Rohan R.",
+  "first_year": 2013,
+  "top3_avg": 71.0
+ },
+ {
+  "bai": "J.Rodriguez.Garcia.1",
+  "name": "Garcia, Roy J.",
+  "first_year": 2013,
+  "top3_avg": 70.33
+ },
+ {
+  "bai": "N.Bultinck.2",
+  "name": "Bultinck, Nick",
+  "first_year": 2013,
+  "top3_avg": 70.0
+ },
+ {
+  "bai": "G.Lo.Monaco.1",
+  "name": "Lo Monaco, Gabriele",
+  "first_year": 2016,
+  "top3_avg": 70.0
+ },
+ {
+  "bai": "P.H.C.Lau.1",
+  "name": "Lau, Pak Hang Chris",
+  "first_year": 2012,
+  "top3_avg": 70.0
+ },
+ {
+  "bai": "Yu.Xuan.Liu.1",
+  "name": "Liu, Yuxuan",
+  "first_year": 2018,
+  "top3_avg": 69.33
+ },
+ {
+  "bai": "D.Flassig.1",
+  "name": "Flassig, Daniel",
+  "first_year": 2011,
+  "top3_avg": 69.33
+ },
+ {
+  "bai": "A.Jahn.1",
+  "name": "Jahn, Alexander",
+  "first_year": 2015,
+  "top3_avg": 68.67
+ },
+ {
+  "bai": "Hui.Ling.Li.1",
+  "name": "Li, Hui-Ling",
+  "first_year": 2005,
+  "top3_avg": 68.67
+ },
+ {
+  "bai": "Georgios.Linardopoulos.1",
+  "name": "Linardopoulos, Georgios",
+  "first_year": 2013,
+  "top3_avg": 68.67
+ },
+ {
+  "bai": "L.Aalsma.1",
+  "name": "Aalsma, Lars",
+  "first_year": 2017,
+  "top3_avg": 68.67
+ },
+ {
+  "bai": "Hongbin.Chen.1",
+  "name": "Chen, Hongbin",
+  "first_year": 2016,
+  "top3_avg": 68.67
+ },
+ {
+  "bai": "M.T.Tan.1",
+  "name": "Tan, Mao Tian",
+  "first_year": 2013,
+  "top3_avg": 68.33
+ },
+ {
+  "bai": "K.Pal.9",
+  "name": "Pal, Kuntal",
+  "first_year": 2019,
+  "top3_avg": 67.67
+ },
+ {
+  "bai": "Kunal.Pal.1",
+  "name": "Pal, Kunal",
+  "first_year": 2019,
+  "top3_avg": 67.67
+ },
+ {
+  "bai": "E.M.Brehm.1",
+  "name": "Brehm, Enrico Mohandas",
+  "first_year": 2002,
+  "top3_avg": 67.33
+ },
+ {
+  "bai": "C.H.Nam.2",
+  "name": "Cao H. Nam",
+  "first_year": 2011,
+  "top3_avg": 67.33
+ },
+ {
+  "bai": "Dongsheng.Ge.1",
+  "name": "Ge, Dongsheng",
+  "first_year": 2018,
+  "top3_avg": 67.33
+ },
+ {
+  "bai": "S.K.Manikandan.2",
+  "name": "Manikandan, Sreenath K.",
+  "first_year": 2015,
+  "top3_avg": 66.67
+ },
+ {
+  "bai": "P.Mandayam.1",
+  "name": "Mandayam, Prabha",
+  "first_year": 2010,
+  "top3_avg": 66.33
+ },
+ {
+  "bai": "A.Shahbazi.Moghaddam.1",
+  "name": "Shahbazi-Moghaddam, Arvin",
+  "first_year": 2014,
+  "top3_avg": 66.0
+ },
+ {
+  "bai": "S.Paganelli.1",
+  "name": "Paganelli, Simone",
+  "first_year": 2004,
+  "top3_avg": 65.67
+ },
+ {
+  "bai": "S.Das.24",
+  "name": "Das, Siddhartha",
+  "first_year": 2014,
+  "top3_avg": 65.67
+ },
+ {
+  "bai": "Arpita.Mitra.1",
+  "name": "Mitra, Arpita",
+  "first_year": 2014,
+  "top3_avg": 65.33
+ },
+ {
+  "bai": "Hyat.Huang.1",
+  "name": "Huang, Hyat",
+  "first_year": 2016,
+  "top3_avg": 65.0
+ },
+ {
+  "bai": "M.Bravo.Gaete.1",
+  "name": "Bravo-Gaete, Mois\u00e9s",
+  "first_year": 2013,
+  "top3_avg": 65.0
+ },
+ {
+  "bai": "E.Greplova.1",
+  "name": "Greplova, Eliska",
+  "first_year": 2015,
+  "top3_avg": 65.0
+ },
+ {
+  "bai": "A.Soloviev.3",
+  "name": "Soloviev, Alexander",
+  "first_year": 2018,
+  "top3_avg": 64.67
+ },
+ {
+  "bai": "F.Sanches.1",
+  "name": "Sanches, Fabio",
+  "first_year": 2014,
+  "top3_avg": 64.33
+ },
+ {
+  "bai": "L.Patino.1",
+  "name": "Pati\u00f1o, Leonardo",
+  "first_year": 2002,
+  "top3_avg": 64.0
+ },
+ {
+  "bai": "A.Baransky.1",
+  "name": "Baransky, Alexander",
+  "first_year": 2017,
+  "top3_avg": 63.67
+ },
+ {
+  "bai": "K.Hajian.1",
+  "name": "Hajian, Kamal",
+  "first_year": 2013,
+  "top3_avg": 63.0
+ },
+ {
+  "bai": "S.R.Muleady.1",
+  "name": "Muleady, Sean R.",
+  "first_year": 2019,
+  "top3_avg": 62.67
+ },
+ {
+  "bai": "Arvind.Shekar.1",
+  "name": "Shekar, Arvind",
+  "first_year": 2018,
+  "top3_avg": 62.67
+ },
+ {
+  "bai": "Bin.Wang.2",
+  "name": "Wang, Bin",
+  "first_year": 2010,
+  "top3_avg": 62.33
+ },
+ {
+  "bai": "Lin.Chen.5",
+  "name": "Chen, Lin",
+  "first_year": 2017,
+  "top3_avg": 62.0
+ },
+ {
+  "bai": "Mahdis.Ghodrati.1",
+  "name": "Ghodrati, Mahdis",
+  "first_year": 2014,
+  "top3_avg": 61.67
+ },
+ {
+  "bai": "D.B.Zhang.1",
+  "name": "Zhang, Dan-Bo",
+  "first_year": 2002,
+  "top3_avg": 61.33
+ },
+ {
+  "bai": "Joydeep.Chakravarty.1",
+  "name": "Chakravarty, Joydeep",
+  "first_year": 2019,
+  "top3_avg": 61.33
+ },
+ {
+  "bai": "J.R.Fliss.1",
+  "name": "Fliss, Jackson R.",
+  "first_year": 2016,
+  "top3_avg": 60.67
+ },
+ {
+  "bai": "Yale.Fan.1",
+  "name": "Fan, Yale",
+  "first_year": 2017,
+  "top3_avg": 60.0
+ },
+ {
+  "bai": "Zhi.Li.2",
+  "name": "Li, Zhi",
+  "first_year": 2017,
+  "top3_avg": 60.0
+ },
+ {
+  "bai": "F.I.Schaposnik.Massolo.1",
+  "name": "Schaposnik Massolo, Fidel I.",
+  "first_year": 2013,
+  "top3_avg": 60.0
+ },
+ {
+  "bai": "Zhewei.Yin.1",
+  "name": "Yin, Zhewei",
+  "first_year": 2013,
+  "top3_avg": 59.33
+ },
+ {
+  "bai": "Zi.Zhi.Wang.1",
+  "name": "Wang, Zi-zhi",
+  "first_year": 2017,
+  "top3_avg": 58.67
+ },
+ {
+  "bai": "D.Wallace.1",
+  "name": "Wallace, David",
+  "first_year": 2000,
+  "top3_avg": 58.33
+ },
+ {
+  "bai": "Andre.Franca.1",
+  "name": "Franca, Andre",
+  "first_year": 2012,
+  "top3_avg": 58.33
+ },
+ {
+  "bai": "L.Kong.4",
+  "name": "Kong, Linghang",
+  "first_year": 2010,
+  "top3_avg": 58.0
+ },
+ {
+  "bai": "Ashis.Saha.1",
+  "name": "Saha, Ashis",
+  "first_year": 2018,
+  "top3_avg": 57.33
+ },
+ {
+  "bai": "X.Y.Shi.1",
+  "name": "Shi, Yu",
+  "first_year": 2000,
+  "top3_avg": 56.67
+ },
+ {
+  "bai": "M.Park.1",
+  "name": "Park, Michael",
+  "first_year": 2011,
+  "top3_avg": 56.33
+ },
+ {
+  "bai": "Sergio.Hernandez.Cuenca.1",
+  "name": "Hern\u00e1ndez-Cuenca, Sergio",
+  "first_year": 2016,
+  "top3_avg": 56.33
+ },
+ {
+  "bai": "A.Roy.11",
+  "name": "Roy, Abhishek",
+  "first_year": 2009,
+  "top3_avg": 56.33
+ },
+ {
+  "bai": "J.Behrends.1",
+  "name": "Behrends, Jan",
+  "first_year": 2013,
+  "top3_avg": 56.0
+ },
+ {
+  "bai": "Gong.Cheng.1",
+  "name": "Cheng, Gong",
+  "first_year": 2015,
+  "top3_avg": 55.67
+ },
+ {
+  "bai": "Kensuke.Gallock.Yoshimura.1",
+  "name": "Gallock-Yoshimura, Kensuke",
+  "first_year": 2018,
+  "top3_avg": 55.33
+ },
+ {
+  "bai": "F.Fritzsch.1",
+  "name": "Fritzsch, Felix",
+  "first_year": 2016,
+  "top3_avg": 55.0
+ },
+ {
+  "bai": "L.Zhao.7",
+  "name": "Zhao, Long",
+  "first_year": 2017,
+  "top3_avg": 55.0
+ },
+ {
+  "bai": "E.Yaraie.1",
+  "name": "Yaraie, Emad",
+  "first_year": 2014,
+  "top3_avg": 54.67
+ },
+ {
+  "bai": "M.R.Tanhayi.1",
+  "name": "Tanhayi, M.Reza",
+  "first_year": 2005,
+  "top3_avg": 54.67
+ },
+ {
+  "bai": "Z.Shangnan.1",
+  "name": "Shangnan, Zhou",
+  "first_year": 2019,
+  "top3_avg": 54.0
+ },
+ {
+  "bai": "Ricardo.Espindola.1",
+  "name": "Esp\u00edndola, Ricardo",
+  "first_year": 2016,
+  "top3_avg": 53.67
+ },
+ {
+  "bai": "H.Parihar.1",
+  "name": "Parihar, Himanshu",
+  "first_year": 2018,
+  "top3_avg": 53.33
+ },
+ {
+  "bai": "H.Zolfi.1",
+  "name": "Zolfi, Hamed",
+  "first_year": 2018,
+  "top3_avg": 53.33
+ },
+ {
+  "bai": "H.van.Zyl.1",
+  "name": "van Zyl, Hendrik J.R.",
+  "first_year": 2015,
+  "top3_avg": 53.0
+ },
+ {
+  "bai": "N.Cheng.2",
+  "name": "Cheng, Newton",
+  "first_year": 2019,
+  "top3_avg": 50.33
+ },
+ {
+  "bai": "M.Farsam.1",
+  "name": "Farsam, Mohammad",
+  "first_year": 2016,
+  "top3_avg": 49.67
+ },
+ {
+  "bai": "A.Al.Balushi.1",
+  "name": "Al Balushi, Abdulrahim",
+  "first_year": 2018,
+  "top3_avg": 49.67
+ },
+ {
+  "bai": "A.Chanda.1",
+  "name": "Chanda, Anindya",
+  "first_year": 2008,
+  "top3_avg": 49.0
+ },
+ {
+  "bai": "W.C.Gan.1",
+  "name": "Gan, Wen-Cong",
+  "first_year": 2016,
+  "top3_avg": 49.0
+ },
+ {
+  "bai": "Satyaki.Chowdhury.1",
+  "name": "Chowdhury, Satyaki",
+  "first_year": 2019,
+  "top3_avg": 48.67
+ },
+ {
+  "bai": "Alex.May.1",
+  "name": "May, Alex",
+  "first_year": 2012,
+  "top3_avg": 47.33
+ },
+ {
+  "bai": "Dmitrii.A.Trunin.1",
+  "name": "Trunin, Dmitrii A.",
+  "first_year": 2018,
+  "top3_avg": 47.33
+ },
+ {
+  "bai": "Diandian.Wang.1",
+  "name": "Wang, Diandian",
+  "first_year": 2018,
+  "top3_avg": 47.0
+ },
+ {
+  "bai": "R.Modak.1",
+  "name": "Modak, Ranjan",
+  "first_year": 2017,
+  "top3_avg": 46.67
+ },
+ {
+  "bai": "A.Legramandi.1",
+  "name": "Legramandi, Andrea",
+  "first_year": 2018,
+  "top3_avg": 46.0
+ },
+ {
+  "bai": "Zimu.Li.2",
+  "name": "Li, Zimu",
+  "first_year": 2019,
+  "top3_avg": 45.67
+ },
+ {
+  "bai": "P.Roy.5",
+  "name": "Roy, Pratim",
+  "first_year": 2011,
+  "top3_avg": 45.67
+ },
+ {
+  "bai": "Samuel.Day.Weiss.1",
+  "name": "Weiss, Samuel",
+  "first_year": 2006,
+  "top3_avg": 45.33
+ },
+ {
+  "bai": "Nicolo.Zenoni.1",
+  "name": "Zenoni, Nicolo'",
+  "first_year": 2018,
+  "top3_avg": 45.33
+ },
+ {
+  "bai": "C.Cafaro.2",
+  "name": "Cafaro, Carlo",
+  "first_year": 2006,
+  "top3_avg": 45.33
+ },
+ {
+  "bai": "Sergio.E.Aguilar.Gutierrez.1",
+  "name": "Aguilar-Gutierrez, Sergio E.",
+  "first_year": 2019,
+  "top3_avg": 45.0
+ },
+ {
+  "bai": "J.Kunjummen.1",
+  "name": "Kunjummen, Jonathan",
+  "first_year": 2018,
+  "top3_avg": 44.67
+ },
+ {
+  "bai": "W.Z.Chua.1",
+  "name": "Chua, Wan Zhen",
+  "first_year": 2018,
+  "top3_avg": 44.33
+ },
+ {
+  "bai": "A.Akhavan.2",
+  "name": "Akhavan, Amin",
+  "first_year": 2008,
+  "top3_avg": 44.33
+ },
+ {
+  "bai": "Wen.Jian.Pan.1",
+  "name": "Pan, Wen-Jian",
+  "first_year": 2011,
+  "top3_avg": 44.0
+ },
+ {
+  "bai": "F.Omidi.1",
+  "name": "Omidi, Farzad",
+  "first_year": 2011,
+  "top3_avg": 44.0
+ },
+ {
+  "bai": "B.Lackey.1",
+  "name": "Lackey, Brad",
+  "first_year": 2015,
+  "top3_avg": 43.67
+ },
+ {
+  "bai": "H.Zoe.1",
+  "name": "Zoe, Heeseung",
+  "first_year": 2008,
+  "top3_avg": 43.33
+ },
+ {
+  "bai": "J.Kames.King.1",
+  "name": "Kames-King, Joshua",
+  "first_year": 2017,
+  "top3_avg": 43.0
+ },
+ {
+  "bai": "G.Jafari.1",
+  "name": "Jafari, Ghadir",
+  "first_year": 2013,
+  "top3_avg": 43.0
+ },
+ {
+  "bai": "Sabyasachi.Maulik.1",
+  "name": "Maulik, Sabyasachi",
+  "first_year": 2018,
+  "top3_avg": 42.67
+ },
+ {
+  "bai": "E.Morvan.1",
+  "name": "Morvan-Benhaim, Edward K.",
+  "first_year": 2019,
+  "top3_avg": 42.67
+ },
+ {
+  "bai": "T.Orito.1",
+  "name": "Orito, Takahiro",
+  "first_year": 2019,
+  "top3_avg": 42.67
+ },
+ {
+  "bai": "Mir.Mehedi.Faruk.1",
+  "name": "Faruk, Mir Mehedi",
+  "first_year": 2016,
+  "top3_avg": 42.33
+ },
+ {
+  "bai": "B.Deng.1",
+  "name": "Deng, Banglin",
+  "first_year": 2013,
+  "top3_avg": 41.67
+ },
+ {
+  "bai": "S.Sahu.4",
+  "name": "Sahu, Subhayan",
+  "first_year": 2018,
+  "top3_avg": 41.0
+ },
+ {
+  "bai": "M.De.Clerck.1",
+  "name": "De Clerck, Marine",
+  "first_year": 2019,
+  "top3_avg": 41.0
+ },
+ {
+  "bai": "L.Kabir.1",
+  "name": "Kabir, Laurens",
+  "first_year": 2014,
+  "top3_avg": 40.67
+ },
+ {
+  "bai": "R.van.Breukelen.1",
+  "name": "Van Breukelen, Rik",
+  "first_year": 2017,
+  "top3_avg": 40.67
+ },
+ {
+  "bai": "D.S.Ageev.1",
+  "name": "Ageev, Dmitry",
+  "first_year": 2014,
+  "top3_avg": 40.0
+ },
+ {
+  "bai": "Dong.Hui.Du.1",
+  "name": "Du, Dong-Hui",
+  "first_year": 2019,
+  "top3_avg": 39.33
+ },
+ {
+  "bai": "M.Eckstein.1",
+  "name": "Eckstein, Micha\u0142",
+  "first_year": 2010,
+  "top3_avg": 39.33
+ },
+ {
+  "bai": "Marcin.Plodzien.1",
+  "name": "P\u0142odzie\u0144, Marcin",
+  "first_year": 2012,
+  "top3_avg": 38.67
+ },
+ {
+  "bai": "L.Nie.2",
+  "name": "Nie, Laimei",
+  "first_year": 2018,
+  "top3_avg": 38.67
+ },
+ {
+  "bai": "K.Higginbotham.2",
+  "name": "Higginbotham, Kenneth",
+  "first_year": 2019,
+  "top3_avg": 38.33
+ },
+ {
+  "bai": "Chang.Liu.1",
+  "name": "Liu, Chang",
+  "first_year": 2007,
+  "top3_avg": 38.33
+ },
+ {
+  "bai": "M.M.Qaemmaqami.1",
+  "name": "Qaemmaqami, Mohammad M.",
+  "first_year": 2014,
+  "top3_avg": 38.33
+ },
+ {
+  "bai": "A.R.Chandra.1",
+  "name": "Ammanamanchi, S.R.C.",
+  "first_year": 2018,
+  "top3_avg": 38.33
+ },
+ {
+  "bai": "V.Balachandran.1",
+  "name": "Balachandran, Vinitha",
+  "first_year": 2007,
+  "top3_avg": 38.0
+ },
+ {
+  "bai": "Maurizio.Firrotta.1",
+  "name": "Firrotta, Maurizio",
+  "first_year": 2017,
+  "top3_avg": 38.0
+ },
+ {
+  "bai": "Yan.Shuo.Zhang.1",
+  "name": "Zhang, Shun-Yao",
+  "first_year": 2011,
+  "top3_avg": 37.33
+ },
+ {
+  "bai": "Xiangjing.Liu.1",
+  "name": "Liu, Xiangjing",
+  "first_year": 2018,
+  "top3_avg": 37.0
+ },
+ {
+  "bai": "Minkyoo.Kim.1",
+  "name": "Kim, Minkyoo",
+  "first_year": 2010,
+  "top3_avg": 36.0
+ },
+ {
+  "bai": "K.Sil.1",
+  "name": "Sil, Karunava",
+  "first_year": 2015,
+  "top3_avg": 35.67
+ },
+ {
+  "bai": "Yuxuan.Peng.1",
+  "name": "Peng, Yuxuan",
+  "first_year": 2014,
+  "top3_avg": 35.67
+ },
+ {
+  "bai": "Benedikt.Richter.1",
+  "name": "Richter, Benedikt",
+  "first_year": 2015,
+  "top3_avg": 35.33
+ },
+ {
+  "bai": "J.Martin.Garcia.1",
+  "name": "Mart\u00edn Garc\u00eda, Javier",
+  "first_year": 2015,
+  "top3_avg": 35.33
+ },
+ {
+  "bai": "Yong.Zhuang.Li.1",
+  "name": "Li, Yong-Zhuang",
+  "first_year": 2013,
+  "top3_avg": 35.33
+ },
+ {
+  "bai": "Y.T.Zhou.1",
+  "name": "Zhou, Yu-Ting",
+  "first_year": 2019,
+  "top3_avg": 35.0
+ },
+ {
+  "bai": "Eric.Mefford.1",
+  "name": "Mefford, Eric",
+  "first_year": 2014,
+  "top3_avg": 34.67
+ },
+ {
+  "bai": "Asmund.Folkestad.1",
+  "name": "Folkestad, \u00c5smund",
+  "first_year": 2017,
+  "top3_avg": 34.33
+ },
+ {
+  "bai": "K.Dixit.2",
+  "name": "Dixit, Khushboo",
+  "first_year": 2017,
+  "top3_avg": 34.33
+ },
+ {
+  "bai": "S.N.Sajadi.1",
+  "name": "Sajadi, S.N.",
+  "first_year": 2011,
+  "top3_avg": 34.0
+ },
+ {
+  "bai": "N.Bolter.1",
+  "name": "B\u00f6lter, Niklas",
+  "first_year": 2018,
+  "top3_avg": 33.5
+ },
+ {
+  "bai": "K.Yelshibekov.1",
+  "name": "Yelshibekov, Khalykbek",
+  "first_year": 2016,
+  "top3_avg": 33.33
+ },
+ {
+  "bai": "M.Sinamuli.1",
+  "name": "Sinamuli, Musema",
+  "first_year": 2014,
+  "top3_avg": 33.33
+ },
+ {
+  "bai": "M.A.Khramtsov.1",
+  "name": "Khramtsov, Mikhail",
+  "first_year": 2014,
+  "top3_avg": 33.33
+ },
+ {
+  "bai": "H.Yu.58",
+  "name": "Yu, Hui",
+  "first_year": 2012,
+  "top3_avg": 33.33
+ },
+ {
+  "bai": "J.Fan.18",
+  "name": "Fan, Jinbo",
+  "first_year": 2017,
+  "top3_avg": 33.0
+ },
+ {
+  "bai": "M.Ali.Akbari.1",
+  "name": "Ali-Akbari, M.",
+  "first_year": 2005,
+  "top3_avg": 32.67
+ },
+ {
+  "bai": "P.Schlagheck.1",
+  "name": "Schlagheck, Peter",
+  "first_year": 2005,
+  "top3_avg": 32.33
+ },
+ {
+  "bai": "J.Ren.4",
+  "name": "Ren, Xi-Jun",
+  "first_year": 2005,
+  "top3_avg": 32.33
+ },
+ {
+  "bai": "G.Vos.1",
+  "name": "Vos, Gideon",
+  "first_year": 2014,
+  "top3_avg": 31.67
+ },
+ {
+  "bai": "Avik.Banerjee.1",
+  "name": "Banerjee, Avik",
+  "first_year": 2015,
+  "top3_avg": 31.67
+ },
+ {
+  "bai": "S.S.Hashemi.1",
+  "name": "Hashemi, S. Sedigheh",
+  "first_year": 2014,
+  "top3_avg": 31.67
+ },
+ {
+  "bai": "P.Hacker.1",
+  "name": "Hacker, Philip",
+  "first_year": 2017,
+  "top3_avg": 31.33
+ },
+ {
+  "bai": "N.Miekley.1",
+  "name": "Miekley, Nina",
+  "first_year": 2017,
+  "top3_avg": 31.0
+ },
+ {
+  "bai": "H.Fan.2",
+  "name": "Fan, Hao",
+  "first_year": 2002,
+  "top3_avg": 31.0
+ },
+ {
+  "bai": "Z.H.Li.2",
+  "name": "Li, Zi-Hao",
+  "first_year": 2004,
+  "top3_avg": 31.0
+ },
+ {
+  "bai": "R.Pirmoradian.1",
+  "name": "Pirmoradian, Reza",
+  "first_year": 2015,
+  "top3_avg": 31.0
+ },
+ {
+  "bai": "G.Tallarita.1",
+  "name": "Tallarita, Gianni",
+  "first_year": 2009,
+  "top3_avg": 31.0
+ },
+ {
+  "bai": "Arghya.Chattopadhyay.1",
+  "name": "Chattopadhyay, Arghya",
+  "first_year": 2017,
+  "top3_avg": 31.0
+ },
+ {
+  "bai": "M.Panchenko.1",
+  "name": "Panchenko, Mischa",
+  "first_year": 2012,
+  "top3_avg": 30.33
+ },
+ {
+  "bai": "S.Waeber.1",
+  "name": "Waeber, Sebastian",
+  "first_year": 2015,
+  "top3_avg": 30.0
+ },
+ {
+  "bai": "Fabiano.F.Santos.1",
+  "name": "Santos, Fabiano F.",
+  "first_year": 2018,
+  "top3_avg": 29.0
+ },
+ {
+  "bai": "E.Wakakuwa.1",
+  "name": "Wakakuwa, Eyuri",
+  "first_year": 2012,
+  "top3_avg": 29.0
+ },
+ {
+  "bai": "Chih.Hung.Wu.1",
+  "name": "Wu, Chih-Hung",
+  "first_year": 2016,
+  "top3_avg": 29.0
+ },
+ {
+  "bai": "P.D.Blocher.1",
+  "name": "Blocher, Philip Daniel",
+  "first_year": 2017,
+  "top3_avg": 29.0
+ },
+ {
+  "bai": "X.W.Li.1",
+  "name": "Li, Xiao-Wei",
+  "first_year": 2016,
+  "top3_avg": 29.0
+ },
+ {
+  "bai": "J.X.Zhong.1",
+  "name": "Zhong, Jian-Xin",
+  "first_year": 2011,
+  "top3_avg": 27.67
+ },
+ {
+  "bai": "A.VincartEmard.1",
+  "name": "Vincart-Emard, Alexandre",
+  "first_year": 2013,
+  "top3_avg": 27.33
+ },
+ {
+  "bai": "R.A.Kidd.1",
+  "name": "Kidd, R.A.",
+  "first_year": 2019,
+  "top3_avg": 26.67
+ },
+ {
+  "bai": "E.Bakhshaei.1",
+  "name": "Bakhshaei, Elaheh",
+  "first_year": 2017,
+  "top3_avg": 26.67
+ },
+ {
+  "bai": "L.Nie.1",
+  "name": "Nie, Laimei",
+  "first_year": 2011,
+  "top3_avg": 26.0
+ },
+ {
+  "bai": "L.Yang.114",
+  "name": "Yang, Lisa",
+  "first_year": 2019,
+  "top3_avg": 25.0
+ },
+ {
+  "bai": "Vyshnav.Mohan.1",
+  "name": "Mohan, Vyshnav",
+  "first_year": 2017,
+  "top3_avg": 25.0
+ },
+ {
+  "bai": "Ankit.Anand.1",
+  "name": "Anand, Ankit",
+  "first_year": 2018,
+  "top3_avg": 24.67
+ },
+ {
+  "bai": "J.Z.Zhuang.1",
+  "name": "Zhuang, J.-Z.",
+  "first_year": 2005,
+  "top3_avg": 24.33
+ },
+ {
+  "bai": "S.Swaminathan.3",
+  "name": "Swaminathan, Sivaramakrishnan",
+  "first_year": 2015,
+  "top3_avg": 23.33
+ },
+ {
+  "bai": "S.N.Hearth.1",
+  "name": "Hearth, Sumner N.",
+  "first_year": 2016,
+  "top3_avg": 23.0
+ },
+ {
+  "bai": "Ali.Akil.1",
+  "name": "Akil, Ali",
+  "first_year": 2018,
+  "top3_avg": 22.33
+ },
+ {
+  "bai": "Kun.Meng.1",
+  "name": "Meng, Kun",
+  "first_year": 2011,
+  "top3_avg": 21.33
+ },
+ {
+  "bai": "Chia.Jui.Chou.1",
+  "name": "Chou, Chia-Jui",
+  "first_year": 2015,
+  "top3_avg": 20.67
+ },
+ {
+  "bai": "S.Bordoni.1",
+  "name": "Bordoni, Simone",
+  "first_year": 2010,
+  "top3_avg": 20.33
+ },
+ {
+  "bai": "Daniel.Avila.1",
+  "name": "\u00c1vila, Daniel",
+  "first_year": 2016,
+  "top3_avg": 20.0
+ },
+ {
+  "bai": "Sara.Bonansea.1",
+  "name": "Bonansea, Sara",
+  "first_year": 2019,
+  "top3_avg": 19.67
+ },
+ {
+  "bai": "Krishan.Saraswat.1",
+  "name": "Saraswat, Krishan",
+  "first_year": 2012,
+  "top3_avg": 19.33
+ },
+ {
+  "bai": "A.H.Karamlou.1",
+  "name": "Karamlou, Amir H.",
+  "first_year": 2017,
+  "top3_avg": 19.33
+ },
+ {
+  "bai": "S.Bhattacharya.9",
+  "name": "Bhattacharya, Swastik",
+  "first_year": 2008,
+  "top3_avg": 18.33
+ },
+ {
+  "bai": "H.Mohammadzadeh.2",
+  "name": "Mohammadzadeh, H.",
+  "first_year": 2004,
+  "top3_avg": 18.33
+ },
+ {
+  "bai": "K.Bradler.3",
+  "name": "Br\u00e1dler, Kamil",
+  "first_year": 2013,
+  "top3_avg": 18.0
+ },
+ {
+  "bai": "S.Karar.1",
+  "name": "Karar, Sourav",
+  "first_year": 2014,
+  "top3_avg": 18.0
+ },
+ {
+  "bai": "J.Hun.Lee.1",
+  "name": "Lee, Jung Hun",
+  "first_year": 2010,
+  "top3_avg": 18.0
+ },
+ {
+  "bai": "Hans.B.Lao.1",
+  "name": "Lao, Hans B.",
+  "first_year": 2017,
+  "top3_avg": 17.67
+ },
+ {
+  "bai": "Evan.Frangipane.1",
+  "name": "Frangipane, Evan",
+  "first_year": 2017,
+  "top3_avg": 17.67
+ },
+ {
+  "bai": "M.Lezgi.1",
+  "name": "Lezgi, Mahsa",
+  "first_year": 2016,
+  "top3_avg": 17.33
+ },
+ {
+  "bai": "A.C.Li.2",
+  "name": "Li, Ai-Chen",
+  "first_year": 2017,
+  "top3_avg": 17.0
+ },
+ {
+  "bai": "M.Asadi.1",
+  "name": "Asadi, M.",
+  "first_year": 2016,
+  "top3_avg": 17.0
+ },
+ {
+  "bai": "F.L.Wu.1",
+  "name": "Wu, Feng-Lin",
+  "first_year": 2019,
+  "top3_avg": 16.67
+ },
+ {
+  "bai": "S.Mahish.1",
+  "name": "Mahish, Sandip",
+  "first_year": 2019,
+  "top3_avg": 16.33
+ },
+ {
+  "bai": "J.Lu.27",
+  "name": "Lu, Junwang",
+  "first_year": 2010,
+  "top3_avg": 16.33
+ },
+ {
+  "bai": "Jinzhao.Wang.1",
+  "name": "Wang, Jinzhao",
+  "first_year": 2019,
+  "top3_avg": 16.0
+ },
+ {
+  "bai": "M.Kotowski.1",
+  "name": "Kotowski, Marcin",
+  "first_year": 2010,
+  "top3_avg": 15.33
+ },
+ {
+  "bai": "Adrita.Chakraborty.1",
+  "name": "Chakraborty, Adrita",
+  "first_year": 2019,
+  "top3_avg": 14.67
+ },
+ {
+  "bai": "B.Bullock.2",
+  "name": "Bullock, Bryce",
+  "first_year": 2011,
+  "top3_avg": 13.67
+ },
+ {
+  "bai": "Han.Qing.Shi.1",
+  "name": "Shi, Han-Qing",
+  "first_year": 2016,
+  "top3_avg": 13.33
+ },
+ {
+  "bai": "R.J.Caginalp.1",
+  "name": "Caginalp, Reginald",
+  "first_year": 2019,
+  "top3_avg": 13.0
+ },
+ {
+  "bai": "S.Pramodh.1",
+  "name": "Pramodh, Sam",
+  "first_year": 2014,
+  "top3_avg": 12.0
+ },
+ {
+  "bai": "M.Fitkevich.1",
+  "name": "Fitkevich, Maxim",
+  "first_year": 2016,
+  "top3_avg": 11.33
+ },
+ {
+  "bai": "S.Kuriyattil.1",
+  "name": "Kuriyattil, Sridevi",
+  "first_year": 2019,
+  "top3_avg": 11.33
+ },
+ {
+  "bai": "L.Niermann.1",
+  "name": "Niermann, Laura",
+  "first_year": 2018,
+  "top3_avg": 10.0
+ },
+ {
+  "bai": "Xiaoyue.Sun.1",
+  "name": "Sun, Xiao-Yue",
+  "first_year": 2019,
+  "top3_avg": 9.67
+ },
+ {
+  "bai": "D.Billo.1",
+  "name": "Billo, Davide",
+  "first_year": 2015,
+  "top3_avg": 9.67
+ },
+ {
+  "bai": "I.Ilgin.1",
+  "name": "Ilgin, Irfan",
+  "first_year": 2013,
+  "top3_avg": 8.67
+ },
+ {
+  "bai": "Yuanceng.Xu.1",
+  "name": "Xu, Yuanceng",
+  "first_year": 2019,
+  "top3_avg": 8.0
+ },
+ {
+  "bai": "H.Stoltenberg.1",
+  "name": "Stoltenberg, Henry",
+  "first_year": 2014,
+  "top3_avg": 7.33
+ },
+ {
+  "bai": "A.Y.Yosifov.1",
+  "name": "Yosifov, Alexander",
+  "first_year": 2017,
+  "top3_avg": 7.33
+ },
+ {
+  "bai": "N.R.HunterJones.1",
+  "name": "Hunter-Jones, Nicholas R.",
+  "first_year": 2018,
+  "top3_avg": 7.0
+ },
+ {
+  "bai": "J.W.Brijan.1",
+  "name": "Brijan, Jan-Willem",
+  "first_year": 2018,
+  "top3_avg": 6.0
+ },
+ {
+  "bai": "L.G.Filipov.1",
+  "name": "Filipov, Lachezar",
+  "first_year": 2012,
+  "top3_avg": 5.33
+ },
+ {
+  "bai": "Mojtaba.Shahbazi.1",
+  "name": "Shahbazi, Mojtaba",
+  "first_year": 2015,
+  "top3_avg": 5.0
+ },
+ {
+  "bai": "F.S.Dundar.1",
+  "name": "D\u00fcndar, Furkan Semih",
+  "first_year": 2014,
+  "top3_avg": 4.33
+ },
+ {
+  "bai": "Jeong.Myeong.Bae.1",
+  "name": "Bae, Jeong-Myeong",
+  "first_year": 2019,
+  "top3_avg": 4.0
+ },
+ {
+  "bai": "G.C.Levine.1",
+  "name": "Levine, G.C.",
+  "first_year": 2019,
+  "top3_avg": 2.0
+ },
+ {
+  "bai": "Yu.Lei.Feng.1",
+  "name": "Feng, Yu-Lei",
+  "first_year": 2011,
+  "top3_avg": 1.67
+ },
+ {
+  "bai": "C.Diaz.2",
+  "name": "D\u00edaz, C\u00e9sar",
+  "first_year": 2013,
+  "top3_avg": 1.67
+ },
+ {
+  "bai": "J.B.R.Silva.1",
+  "name": "Silva, Joao B.R.",
+  "first_year": 2006,
+  "top3_avg": 1.33
+ },
+ {
+  "bai": "A.E.ChatwinDavies.1",
+  "name": "Chatwin-Davies, Aidan \u00c9mile",
+  "first_year": 2018,
+  "top3_avg": 1.0
+ },
+ {
+  "bai": "R.A.Jefferson.2",
+  "name": "Jefferson, R.A.",
+  "first_year": 2017,
+  "top3_avg": 0.0
+ },
+ {
+  "bai": "A.E.K.T.Almheiri.1",
+  "name": "Almheiri, Ahmed Eid Khamis Thani",
+  "first_year": 2014,
+  "top3_avg": 0.0
+ }
+]
