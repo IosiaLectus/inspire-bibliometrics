@@ -25,7 +25,13 @@ MAX_RESULT_WINDOW = 10000  # INSPIRE refuses to page past this for a single quer
 
 
 def get_citing_control_numbers(bai, retries=4):
-    """Return the list of control_numbers of all papers citing `bai`."""
+    """Return the de-duplicated list of control_numbers of all papers citing `bai`.
+
+    INSPIRE's default (relevance) sort has no stable tiebreaker, so paging
+    through it reshuffles results between requests and the same record can
+    reappear on multiple pages (observed ~30-40% duplication rate in testing).
+    Pinning sort=mostrecent gives a stable, non-overlapping page sequence.
+    """
     ids = []
     page = 1
     while True:
@@ -37,6 +43,7 @@ def get_citing_control_numbers(bai, retries=4):
                         "q": f"refersto:author:{bai}",
                         "size": PAGE_SIZE,
                         "page": page,
+                        "sort": "mostrecent",
                         "fields": "control_number",
                     },
                     timeout=30,
@@ -57,10 +64,14 @@ def get_citing_control_numbers(bai, retries=4):
         page += 1
         if page * PAGE_SIZE > MAX_RESULT_WINDOW:
             print(f"  WARNING: {bai} exceeds INSPIRE's {MAX_RESULT_WINDOW}-result "
-                  f"pagination cap; truncating (results are unordered, so this "
-                  f"is a random subsample rather than a systematic bias).")
+                  f"pagination cap; truncating to the {MAX_RESULT_WINDOW} most "
+                  f"recent citing papers.")
             break
-    return ids
+    deduped = sorted(set(ids))
+    if len(deduped) != len(ids):
+        print(f"  NOTE: {bai} had {len(ids) - len(deduped)} duplicate records "
+              f"even under stable sort; deduplicated.")
+    return deduped
 
 
 def main():

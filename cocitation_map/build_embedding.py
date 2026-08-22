@@ -29,19 +29,23 @@ def build_cooccurrence(eligible, citing_papers):
     n = len(bais)
     idx = {b: i for i, b in enumerate(bais)}
 
-    singles = np.array([len(citing_papers[b]) for b in bais], dtype=float)
+    # defensively de-duplicate each person's citing-paper list (fetch_citers.py
+    # already does this, but a stale cache file might predate that fix)
+    deduped = {b: set(citing_papers[b]) for b in bais}
+    singles = np.array([len(deduped[b]) for b in bais], dtype=float)
 
     # reverse index: citing paper -> set of our people that it cites
-    paper_to_people = defaultdict(list)
+    paper_to_people = defaultdict(set)
     for b in bais:
         i = idx[b]
-        for cn in citing_papers[b]:
-            paper_to_people[cn].append(i)
+        for cn in deduped[b]:
+            paper_to_people[cn].add(i)
 
     count = np.zeros((n, n))
     for people in paper_to_people.values():
         if len(people) < 2:
             continue
+        people = sorted(people)
         for a in range(len(people)):
             for c in range(a + 1, len(people)):
                 i, j = people[a], people[c]
@@ -94,9 +98,9 @@ def main():
     print("Running full SVD and scanning for variance target...", flush=True)
     U, S, Vt, cum, k = scan_svd_dimension(ppmi, VARIANCE_TARGET)
     print(f"Singular value spectrum (first 15): {np.round(S[:15], 2)}", flush=True)
-    print(f"Cumulative variance at k=10/20/30/45/60: "
-          f"{cum[9]*100:.1f}% / {cum[19]*100:.1f}% / {cum[29]*100:.1f}% / "
-          f"{cum[44]*100:.1f}% / {cum[59]*100:.1f}%", flush=True)
+    checkpoints = [c for c in [10, 20, 30, 45, 60] if c <= len(cum)]
+    summary = " / ".join(f"{cum[c-1]*100:.1f}%" for c in checkpoints)
+    print(f"Cumulative variance at k={checkpoints}: {summary}", flush=True)
     print(f"==> smallest k reaching {VARIANCE_TARGET*100:.0f}% variance: k={k} "
           f"(captures {cum[k-1]*100:.2f}%)", flush=True)
 
