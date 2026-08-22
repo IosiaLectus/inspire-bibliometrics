@@ -1,0 +1,7 @@
+# Generated data artifacts -- reproducible by rerunning fetch_citers.py /
+# build_embedding.py, and too large/volatile to track in git.
+citing_papers.json
+run_all.log
+*.npy
+embedding_bais.json
+svd_scan.json
