@@ -10,9 +10,6 @@ embedding_bais.json
 embedding_bais_clean.json
 embedding_bais_v2.json
 svd_scan.json
-labels_k6.json
-labels_k18.json
-labels_k6_final.json
-labels_k18_final.json
+labels_k*.json
 multi_embedding_dims.json
 final_svd_scan.json
