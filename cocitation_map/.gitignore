@@ -4,4 +4,7 @@ citing_papers.json
 run_all.log
 *.npy
 embedding_bais.json
+embedding_bais_clean.json
 svd_scan.json
+labels_k6.json
+labels_k18.json
