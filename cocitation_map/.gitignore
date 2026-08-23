@@ -20,6 +20,9 @@ proposed_funnel_counts.json
 need_year.json
 new_candidate_first_years.json
 proposed_binned.json
+current_663_bais.json
+latest_years.json
+fetch_latest.log
 top_hub_papers.json
 top100_hub_papers.json
 labels_k*_final.json
