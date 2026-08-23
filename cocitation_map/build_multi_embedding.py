@@ -31,6 +31,7 @@ CITERS_PATH = os.path.join(HERE, "citing_papers.json")
 OWN_PATH = os.path.join(HERE, "own_papers.json")
 
 VARIANCE_TARGET = 0.98
+FINAL_VARIANCE_TARGET = 0.95
 
 
 def build_symmetric_count(bais, sets_a, sets_b=None):
@@ -225,9 +226,28 @@ def main():
 
     combined = np.concatenate([blocks["cocitation"], blocks["coauthor"],
                                 blocks["citer"], blocks["citee"]], axis=1)
-    print(f"\nCombined embedding shape: {combined.shape} "
+    print(f"\nCombined (pre-compression) embedding shape: {combined.shape} "
           f"(cocitation={dims['cocitation']}, coauthor={dims['coauthor']}, "
           f"citer={dims['citer']}, citee={dims['citee']})", flush=True)
+
+    # Final SVD pass on the concatenation: 1382 raw dims for 663 people is a
+    # lot relative to the sample size, and each block's contribution to any
+    # distance/cosine computation scales with its dimension count regardless
+    # of normalize_block's per-row-norm scaling (419 dims outvotes 171 dims
+    # just by having more axes). Truncated SVD directly on the (people x
+    # features) concatenation -- not centered, consistent with the rest of
+    # this pipeline treating raw/PPMI values as already-meaningful magnitudes
+    # rather than a classic mean-centered PCA -- gives one compact, blended
+    # space where each relation's influence is set by how much distinct
+    # variance it actually contributes, not by its raw dimension count.
+    print("\nRunning final SVD pass on the concatenated embedding...", flush=True)
+    Uc, Sc, Vtc, cum_c, k_c = scan_svd_dimension(combined, target=FINAL_VARIANCE_TARGET)
+    print(f"  k={k_c} for {FINAL_VARIANCE_TARGET*100:.0f}% variance "
+          f"(captures {cum_c[k_c-1]*100:.2f}%)", flush=True)
+    final_embedding = Uc[:, :k_c] * Sc[:k_c]
+    dims["final"] = k_c
+
+    print(f"Final embedding shape: {final_embedding.shape}", flush=True)
 
     np.save(os.path.join(HERE, "cocitation_count_v2.npy"), cocitation_count)
     np.save(os.path.join(HERE, "coauthor_count.npy"), coauthor_count)
@@ -235,14 +255,23 @@ def main():
     for name, block in blocks.items():
         np.save(os.path.join(HERE, f"embedding_{name}.npy"), block)
     np.save(os.path.join(HERE, "embedding_combined.npy"), combined)
+    np.save(os.path.join(HERE, "embedding_final.npy"), final_embedding)
+    np.save(os.path.join(HERE, "final_singular_values.npy"), Sc)
     with open(os.path.join(HERE, "embedding_bais_v2.json"), "w") as f:
         json.dump(bais, f)
     with open(os.path.join(HERE, "multi_embedding_dims.json"), "w") as f:
         json.dump(dims, f)
+    with open(os.path.join(HERE, "final_svd_scan.json"), "w") as f:
+        json.dump({
+            "variance_target": FINAL_VARIANCE_TARGET,
+            "chosen_k": k_c,
+            "cumulative_variance": cum_c.tolist(),
+        }, f)
 
     print("Saved: cocitation_count_v2.npy, coauthor_count.npy, "
           "directed_citation_count.npy, embedding_{cocitation,coauthor,citer,citee}.npy, "
-          "embedding_combined.npy, embedding_bais_v2.json, multi_embedding_dims.json", flush=True)
+          "embedding_combined.npy, embedding_final.npy, final_singular_values.npy, "
+          "embedding_bais_v2.json, multi_embedding_dims.json, final_svd_scan.json", flush=True)
     print("DONE", flush=True)
 
 
