@@ -33,6 +33,8 @@ new_qual_2seed.json
 rt_hrt_counts.json
 qualifying_3cond.json
 harrow_top_cited_recids.json
+seed_paper_counts_v2.json
+build_eligible_v2.log
 top_hub_papers.json
 top100_hub_papers.json
 labels_k*_final.json
