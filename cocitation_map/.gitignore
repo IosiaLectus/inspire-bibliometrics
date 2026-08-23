@@ -13,3 +13,9 @@ svd_scan.json
 labels_k*.json
 multi_embedding_dims.json
 final_svd_scan.json
+alt_seed_funnel_results.json
+alt_seed_funnel.log
+top_hub_papers.json
+top100_hub_papers.json
+labels_k*_final.json
+embedding_no_cocitation.npy
