@@ -28,6 +28,8 @@ need_latest.json
 fetch_latest2.log
 full_career_table.json
 sampled_citation_totals.json
+per_paper_counts.json
+new_qual_2seed.json
 top_hub_papers.json
 top100_hub_papers.json
 labels_k*_final.json
