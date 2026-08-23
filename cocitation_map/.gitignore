@@ -1,10 +1,15 @@
 # Generated data artifacts -- reproducible by rerunning fetch_citers.py /
 # build_embedding.py, and too large/volatile to track in git.
 citing_papers.json
+own_papers.json
 run_all.log
+fetch_own.log
+build_multi.log
 *.npy
 embedding_bais.json
 embedding_bais_clean.json
+embedding_bais_v2.json
 svd_scan.json
 labels_k6.json
 labels_k18.json
+multi_embedding_dims.json

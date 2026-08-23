@@ -94,9 +94,14 @@ def build_directed_count(bais, own, citing):
     return directed
 
 
-def ppmi_symmetric(count):
+def ppmi_symmetric(count, marg):
+    """marg[i] must be each person's TRUE global frequency for this relation
+    (e.g. total distinct citing papers, or total distinct own papers) --
+    NOT derived from count.sum(axis=1), which would restrict the marginal to
+    only the in-vocabulary submatrix and understate each person's true
+    unigram frequency (the same mistake as computing P(w) in word2vec from
+    only the contexts that happen to also be vocabulary words)."""
     n = count.shape[0]
-    marg = count.sum(axis=1)
     D = marg.sum()
     ppmi = np.zeros((n, n))
     nz = np.nonzero(count)
@@ -109,9 +114,19 @@ def ppmi_symmetric(count):
 
 
 def ppmi_directed(count):
-    """PMI for an asymmetric matrix: row marginals = totals given out (i cites),
-    column marginals = totals received (j is cited). Same PMI formula as the
-    text case where 'target' and 'context' marginals are computed separately."""
+    """PMI for an asymmetric matrix, using row/column marginals derived from
+    `count` itself. Unlike co-citation and coauthorship -- where each
+    person's TRUE unrestricted frequency (total citations received / total
+    papers written, from data we already have) is available and used as the
+    marginal -- there's no unrestricted analogue here: we never fetched full
+    reference lists, so "i's total citations made" restricted to this
+    663-person cohort is the only citing-side quantity we have. Mixing that
+    restricted row total with an unrestricted column total (e.g. i's true
+    global citing rate) would put row and column probabilities on different
+    scales and bias the result, so both sides are deliberately kept
+    consistent within the same restricted, field-internal universe: this
+    measures whether i cites j more than expected given i's and j's
+    citing/cited propensity *within the field*, not the wider literature."""
     row_marg = count.sum(axis=1)
     col_marg = count.sum(axis=0)
     D = count.sum()
@@ -163,6 +178,8 @@ def main():
 
     citing = {b: set(citing_papers_raw[b]) for b in bais}
     own = {b: set(own_papers_raw[b]) for b in bais}
+    citing_singles = np.array([len(citing[b]) for b in bais], dtype=float)
+    own_singles = np.array([len(own[b]) for b in bais], dtype=float)
 
     print(f"Building relation matrices for {len(bais)} people...", flush=True)
 
@@ -182,14 +199,14 @@ def main():
     dims = {}
 
     print("\nFactorizing co-citation...", flush=True)
-    ppmi_cc = ppmi_symmetric(cocitation_count)
+    ppmi_cc = ppmi_symmetric(cocitation_count, citing_singles)
     U, S, Vt, cum, k = scan_svd_dimension(ppmi_cc)
     print(f"  k={k} for {VARIANCE_TARGET*100:.0f}% variance (captures {cum[k-1]*100:.2f}%)", flush=True)
     blocks["cocitation"] = normalize_block(U[:, :k] * np.sqrt(S[:k]))
     dims["cocitation"] = k
 
     print("Factorizing coauthorship...", flush=True)
-    ppmi_ca = ppmi_symmetric(coauthor_count)
+    ppmi_ca = ppmi_symmetric(coauthor_count, own_singles)
     U, S, Vt, cum, k = scan_svd_dimension(ppmi_ca)
     print(f"  k={k} for {VARIANCE_TARGET*100:.0f}% variance (captures {cum[k-1]*100:.2f}%)", flush=True)
     blocks["coauthor"] = normalize_block(U[:, :k] * np.sqrt(S[:k]))
