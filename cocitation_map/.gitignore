@@ -39,3 +39,11 @@ top_hub_papers.json
 top100_hub_papers.json
 labels_k*_final.json
 embedding_no_cocitation.npy
+citing_papers_v2.json
+own_papers_v2.json
+fetch_citers_v2.log
+fetch_own_v2.log
+capped_bais_v2.json
+pairwise_fallback_counts.json
+embedding_bais_v3.json
+multi_embedding_dims_v3.json
