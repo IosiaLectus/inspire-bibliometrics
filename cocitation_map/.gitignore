@@ -32,6 +32,7 @@ per_paper_counts.json
 new_qual_2seed.json
 rt_hrt_counts.json
 qualifying_3cond.json
+harrow_top_cited_recids.json
 top_hub_papers.json
 top100_hub_papers.json
 labels_k*_final.json
