@@ -17,6 +17,8 @@ alt_seed_funnel_results.json
 alt_seed_funnel.log
 amps_susskind_counts.json
 proposed_funnel_counts.json
+need_year.json
+new_candidate_first_years.json
 top_hub_papers.json
 top100_hub_papers.json
 labels_k*_final.json
