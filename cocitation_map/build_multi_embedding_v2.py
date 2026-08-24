@@ -76,10 +76,16 @@ def build_symmetric_count(bais, sets_a, sets_b=None):
 
 def apply_pairwise_fallback(count, bais, capped_set, fallback):
     """Overwrite count(i,j) with the exact pairwise value wherever available
-    and at least one of i, j is a capped (truncated-citer-list) person."""
+    and at least one of i, j is a capped (truncated-citer-list) person.
+    Entries where the exact query failed after retries (None) are left as
+    the original approximate count rather than corrupting the matrix."""
     idx = {b: i for i, b in enumerate(bais)}
     n_overridden = 0
+    n_failed = 0
     for key, exact in fallback.items():
+        if exact is None:
+            n_failed += 1
+            continue
         a, b = key.split("|")
         if a not in idx or b not in idx:
             continue
@@ -87,7 +93,8 @@ def apply_pairwise_fallback(count, bais, capped_set, fallback):
         count[i, j] = exact
         count[j, i] = exact
         n_overridden += 1
-    print(f"  pairwise fallback: overrode {n_overridden} pairs", flush=True)
+    print(f"  pairwise fallback: overrode {n_overridden} pairs "
+          f"({n_failed} skipped -- exact query failed, kept approximate count)", flush=True)
     return count
 
 
