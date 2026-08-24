@@ -47,3 +47,4 @@ capped_bais_v2.json
 pairwise_fallback_counts.json
 embedding_bais_v3.json
 multi_embedding_dims_v3.json
+pairwise_fallback.log
