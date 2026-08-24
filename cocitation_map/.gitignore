@@ -48,3 +48,13 @@ pairwise_fallback_counts.json
 embedding_bais_v3.json
 multi_embedding_dims_v3.json
 pairwise_fallback.log
+pairwise_fallback2.log
+build_multi_v2.log
+labels6_tree.json
+labels18_tree.json
+labels_k6_v2.json
+dendrogram_data.json
+dendrogram_full.json
+dendrogram_leaf_info.json
+dendrogram_page_data.json
+linkage_Z.npy
