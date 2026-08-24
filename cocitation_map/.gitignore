@@ -49,6 +49,7 @@ embedding_bais_v3.json
 multi_embedding_dims_v3.json
 pairwise_fallback.log
 happy_counts.json
+top150_by_citations.csv
 pairwise_fallback2.log
 build_multi_v2.log
 labels6_tree.json
