@@ -60,3 +60,4 @@ dendrogram_full.json
 dendrogram_leaf_info.json
 dendrogram_page_data.json
 linkage_Z.npy
+top150_by_citations_filtered.csv
