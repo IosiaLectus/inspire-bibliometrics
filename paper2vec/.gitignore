@@ -1,0 +1,6 @@
+# Generated data artifacts -- reproducible by rerunning fetch_papers.py /
+# compute_embeddings.py, and too large/volatile to track in git.
+papers_by_researcher.json
+embeddings.npy
+paper_manifest.json
+*.log
