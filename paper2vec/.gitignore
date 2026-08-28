@@ -1,6 +1,10 @@
 # Generated data artifacts -- reproducible by rerunning fetch_papers.py /
-# compute_embeddings.py, and too large/volatile to track in git.
+# compute_embeddings.py / compute_trajectories.py, and too large/volatile to
+# track in git.
 papers_by_researcher.json
 embeddings.npy
 paper_manifest.json
+trajectory_embeddings.npy
+trajectory_manifest.json
 *.log
+__pycache__/
