@@ -6,5 +6,7 @@ embeddings.npy
 paper_manifest.json
 trajectory_embeddings.npy
 trajectory_manifest.json
+autocorrelation_by_lag.json
+researcher_drift_rates.json
 *.log
 __pycache__/
