@@ -10,5 +10,7 @@ autocorrelation_by_lag.json
 researcher_drift_rates.json
 advisor_info.json
 advisor_bais.json
+advisor_drift_by_lag.json
+advisor_drift_pairs.json
 *.log
 __pycache__/
