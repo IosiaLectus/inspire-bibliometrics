@@ -13,5 +13,6 @@ advisor_bais.json
 advisor_drift_by_lag.json
 advisor_drift_pairs.json
 clusters.json
+career_positions.json
 *.log
 __pycache__/
