@@ -17,14 +17,24 @@
 # (position vs. one's own past) as the natural baseline: is drift-from-advisor
 # faster, slower, or about the same as ordinary self-drift?
 #
-# CAVEAT: by graduation time an advisor is typically an established PI with
-# a large accumulated body of work (median ~140 papers in this sample), so
-# their graduation-year position is itself an average over a broad swath of
-# their career, not just "whatever they were doing when this one student
-# graduated". That makes it an inherently more central, harder-to-move-away
-# -from target in cosine terms than a typical trajectory point -- treat the
-# absolute distance numbers with that in mind, not just the self-drift
-# comparison.
+# CAVEAT: this is NOT an apples-to-apples comparison with self_drift.py's
+# curve, and not for the reason it might first look like. The advisor's
+# position is frozen, so it cannot "resist" the student moving away from it
+# -- only the student's side is actually moving. What's asymmetric is
+# sample size: even under the identical 5-year half-life decay, an
+# advisor's graduation-year position is typically built from ~90
+# effectively-weighted papers (an established PI's group keeps publishing),
+# vs. ~7 for the student (a fresh PhD graduate, unsurprisingly). Averaging
+# over more papers cancels more idiosyncratic per-paper variation and
+# leaves a vector closer to whatever generic component the advisor's
+# papers share -- and a more heavily-averaged reference point generically
+# has HIGHER expected cosine similarity to any other point than a noisier,
+# less-averaged one does, independent of who's moving. So part of why this
+# curve sits flatter than self-drift is that self-drift compares two
+# similarly-noisy points to each other, while this compares a noisy
+# student point to a much-more-averaged advisor point -- not necessarily
+# that departure from an advisor is smaller than departure from one's own
+# past.
 ################################################################################
 
 import json
