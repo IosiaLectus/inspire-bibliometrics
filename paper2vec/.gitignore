@@ -8,5 +8,7 @@ trajectory_embeddings.npy
 trajectory_manifest.json
 autocorrelation_by_lag.json
 researcher_drift_rates.json
+advisor_info.json
+advisor_bais.json
 *.log
 __pycache__/
