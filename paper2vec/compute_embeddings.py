@@ -29,6 +29,8 @@ import os
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
+from text_utils import strip_markup
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 PAPERS_PATH = os.path.join(HERE, "papers_by_researcher.json")
 EMBEDDINGS_PATH = os.path.join(HERE, "embeddings.npy")
@@ -51,8 +53,8 @@ def dedup_papers(papers_by_researcher):
 
 
 def build_text(paper, sep_token):
-    title = paper["title"]
-    abstract = paper.get("abstract")
+    title = strip_markup(paper["title"])
+    abstract = strip_markup(paper.get("abstract"))
     if abstract:
         return f"{title}{sep_token}{abstract}"
     return title
