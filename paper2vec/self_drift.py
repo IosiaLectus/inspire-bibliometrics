@@ -21,6 +21,18 @@
 # short-lag correlation independent of any real scientific drift -- the
 # informative part of the curve is how much it decays beyond what pure
 # window overlap would predict, not the absolute short-lag correlation.
+#
+# SECOND CAVEAT, and the reason for the real-paper-count filters below:
+# compute_trajectories.py's annual grid runs from a researcher's first
+# paper year through the current year regardless of how sparse their
+# record is, so a researcher with e.g. one paper in 2020 gets an
+# IDENTICAL position for every year 2020-2026 -- there's no new evidence
+# to move it. Left unfiltered, those researchers contribute many
+# artificially-perfect (cosine=1.0) pairs at every lag, which both
+# inflates the population autocorrelation curve and produces a spurious
+# "zero drift" outlier at the per-researcher level. Filtering on real
+# paper count (not grid-point count, which just counts calendar years and
+# is blind to this) excludes the degenerate cases from both.
 ################################################################################
 
 import json
@@ -29,14 +41,17 @@ from collections import defaultdict
 
 import numpy as np
 
+import trajectory as traj
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 TRAJ_EMB_PATH = os.path.join(HERE, "trajectory_embeddings.npy")
 TRAJ_MANIFEST_PATH = os.path.join(HERE, "trajectory_manifest.json")
 AUTOCORR_OUT = os.path.join(HERE, "autocorrelation_by_lag.json")
 DRIFT_RATES_OUT = os.path.join(HERE, "researcher_drift_rates.json")
 
-MIN_POINTS_FOR_RATE = 5   # minimum trajectory points to fit a per-researcher drift rate
-MIN_SPAN_FOR_RATE = 4     # minimum years of span (in addition to point count)
+MIN_REAL_PAPERS_POOL = 3   # minimum distinct papers to be included in the autocorrelation pool at all
+MIN_REAL_PAPERS_RATE = 5   # minimum distinct papers to fit a per-researcher drift rate
+MIN_SPAN_FOR_RATE = 4      # minimum years of span (in addition to paper count)
 
 
 def main():
@@ -44,14 +59,24 @@ def main():
     with open(TRAJ_MANIFEST_PATH) as f:
         manifest = json.load(f)
 
+    print("Joining researcher paper lists to embedding rows (for real paper counts)...", flush=True)
+    researcher_rows = traj.load_researcher_paper_rows()
+    n_real_papers = {bai: len(rows) for bai, rows in researcher_rows.items()}
+
     by_researcher = defaultdict(list)
     for i, m in enumerate(manifest):
         by_researcher[m["bai"]].append((m["year"], i, m["name"]))
 
     lag_cosines = defaultdict(list)  # lag (int years) -> list of cosine similarities
     drift_rates = []
+    n_excluded_from_pool = 0
 
     for bai, points in by_researcher.items():
+        real_papers = n_real_papers.get(bai, 0)
+        if real_papers < MIN_REAL_PAPERS_POOL:
+            n_excluded_from_pool += 1
+            continue
+
         points.sort()
         n = len(points)
         if n < 2:
@@ -72,7 +97,7 @@ def main():
                 pair_cos.append(cos)
 
         span = float(years[-1] - years[0])
-        if n >= MIN_POINTS_FOR_RATE and span >= MIN_SPAN_FOR_RATE:
+        if real_papers >= MIN_REAL_PAPERS_RATE and span >= MIN_SPAN_FOR_RATE:
             lags_arr = np.array(pair_lags, dtype=np.float64)
             dist_arr = 1.0 - np.array(pair_cos, dtype=np.float64)
             slope = float(np.sum(lags_arr * dist_arr) / np.sum(lags_arr ** 2))
@@ -82,6 +107,7 @@ def main():
                 "drift_rate_per_year": slope,
                 "span_years": span,
                 "n_points": n,
+                "n_real_papers": real_papers,
             })
 
     autocorr = []
@@ -103,9 +129,12 @@ def main():
         json.dump(drift_rates, f, indent=2)
 
     total_pairs = sum(len(v) for v in lag_cosines.values())
-    print(f"{len(by_researcher)} researchers with a trajectory, {total_pairs} total (t_i,t_j) pairs", flush=True)
+    n_pooled = len(by_researcher) - n_excluded_from_pool
+    print(f"{n_pooled} researchers in the autocorrelation pool "
+          f"({n_excluded_from_pool} excluded, < {MIN_REAL_PAPERS_POOL} real papers), "
+          f"{total_pairs} total (t_i,t_j) pairs", flush=True)
     print(f"lags observed: {min(lag_cosines)} to {max(lag_cosines)} years", flush=True)
-    print(f"researchers with a fitted drift rate (>= {MIN_POINTS_FOR_RATE} pts, "
+    print(f"researchers with a fitted drift rate (>= {MIN_REAL_PAPERS_RATE} real papers, "
           f">= {MIN_SPAN_FOR_RATE}yr span): {len(drift_rates)}", flush=True)
     rates = np.array([d["drift_rate_per_year"] for d in drift_rates])
     print(f"drift rate (cosine distance / year): mean={rates.mean():.4f} "
