@@ -202,15 +202,22 @@ def main():
 
     print("\nFitting discrete-time hazard models (5-fold grouped CV AUC):", flush=True)
     rows_std = build_person_period(records, standard_metrics)
-    fit_and_evaluate(rows_std, ["log_n_papers", "log_citations"], "standard metrics only")
+    auc_std = fit_and_evaluate(rows_std, ["log_n_papers", "log_citations"], "standard metrics only")
 
     rows_pos = build_person_period(records, position_features)
-    fit_and_evaluate(rows_pos, [f"pc{i}" for i in range(N_PCA_COMPONENTS)], "embedding position only")
+    auc_pos = fit_and_evaluate(rows_pos, [f"pc{i}" for i in range(N_PCA_COMPONENTS)], "embedding position only")
 
     rows_combined = build_person_period(records, combined_features)
-    fit_and_evaluate(rows_combined,
-                      ["log_n_papers", "log_citations"] + [f"pc{i}" for i in range(N_PCA_COMPONENTS)],
-                      "standard metrics + position")
+    auc_combined = fit_and_evaluate(
+        rows_combined,
+        ["log_n_papers", "log_citations"] + [f"pc{i}" for i in range(N_PCA_COMPONENTS)],
+        "standard metrics + position")
+
+    model_comparison = [
+        {"model": "standard metrics only", "auc_mean": auc_std[0], "auc_std": auc_std[1]},
+        {"model": "embedding position only", "auc_mean": auc_pos[0], "auc_std": auc_pos[1]},
+        {"model": "standard metrics + position", "auc_mean": auc_combined[0], "auc_std": auc_combined[1]},
+    ]
 
     # empirical (nonparametric) cumulative incidence, for the chart
     max_t = max(r["t"] for r in records)
@@ -228,6 +235,8 @@ def main():
         json.dump({
             "n_researchers": len(records),
             "n_events": n_event,
+            "pca_explained_variance": float(pca.explained_variance_ratio_.sum()),
+            "model_comparison": model_comparison,
             "cumulative_incidence": [
                 {"t": t, "cum_incidence": float(cum_incidence[t]), "at_risk": int(at_risk[t])}
                 for t in range(max_t + 1)
