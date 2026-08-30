@@ -16,5 +16,6 @@ clusters.json
 career_positions.json
 citations_by_researcher.json
 career_outcomes.json
+field_drift.json
 *.log
 __pycache__/
